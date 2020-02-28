@@ -1,3 +1,4 @@
 .idea
 venv
 whatandwhotree.egg-info
+*.sqlite3
