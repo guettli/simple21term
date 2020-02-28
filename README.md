@@ -19,7 +19,5 @@ Open Source since 2020.
 ## Installation
 * Install your favorite IDE. For example PyCharm
 * Create a new project
-* In the terminal: ```
-pip install -e git+https://github.com/guettli/whatandwhotree/#egg=whatandwhotree
-```
+* In the terminal: `pip install -e git+https://github.com/guettli/whatandwhotree/#egg=whatandwhotree`
 
