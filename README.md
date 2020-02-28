@@ -13,3 +13,12 @@ The what-and-who-tree helps you to define:
 * the terminology for all stakeholders.
 
 It is simple, that's why it is clear, fast and successfull.
+
+Open Source since 2020.
+
+## Installation
+
+```
+pip install -e git+https://github.com/guettli/whatandwhotree/#egg=whatandwhotree
+```
+
