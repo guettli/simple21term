@@ -22,4 +22,7 @@ Open Source since 2020.
 * In the terminal: `pip install -e git+https://github.com/guettli/whatandwhotree/#egg=whatandwhotree`
 * Now your settings.py file should be located here: `PycharmProjects/what-and-who-tree/venv/src/whatandwhotree/mysite/mysite/settings.py`
 * Start the runserver like explained here: [runnserver in PyCharm Community Edition](https://stackoverflow.com/questions/27269574/how-to-run-debug-server-for-django-project-in-pycharm-community-edition)
+  * Script Path: `.../PycharmProjects/what-and-who-tree/venv/src/whatandwhotree/mysite/manage.py`
+  * Parameter: manage.py
+  
 
