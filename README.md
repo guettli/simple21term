@@ -23,7 +23,7 @@ Open Source since 2020.
 * Do it: Add a new Environment.
 * A warning should be at the top "Package requirement is missing: Django>=....". Install it.
 * Configure the runserver like explained here: [runnserver in PyCharm Community Edition](https://stackoverflow.com/questions/27269574/how-to-run-debug-server-for-django-project-in-pycharm-community-edition)
-* Run runserver. The `Starting development server at http://127.0.0.1:8000/` should be visible
+* Run runserver. `Starting development server at http://127.0.0.1:8000/` should be visible
 * Open the URL in your browser. You should see "The install worked successfully! Congratulations!"
  
 
