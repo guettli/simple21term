@@ -9,5 +9,5 @@ setup(name='whatandwhotree',
       author_email='guettli.whatandwhotree@thomas-guettler.de',
       url='https://github.com/guettli/whatandwhotree/',
       packages=['whatandwhotree'],
-      install_requires=['Django>=3.0.3'],
+      install_requires=['Django>=3.0.3', 'django-mptt>=0.11.0'],
      )
