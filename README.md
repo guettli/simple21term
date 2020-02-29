@@ -29,6 +29,7 @@ Open Source since 2020.
 * https://www.wikiorgcharts.com/
 * https://pingboard.com/org-charts/org-chart-resources
 * https://courses.lumenlearning.com/baycollege-introbusiness/chapter/the-organization-chart-and-reporting-structure/
+* https://www.orgchartpro.com/org-chart-examples/
 
 ## Installation
 * Install your favorite IDE. For example PyCharm
