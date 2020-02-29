@@ -19,11 +19,12 @@ Open Source since 2020.
 ## Installation
 * Install your favorite IDE. For example PyCharm
 * Create new project from Version Control: https://github.com/guettli/who-owns-what.git
-* Go to "mysite/manage.py". There should be a warning on the top "Configure Python Interpreter".
-* Do it: Add a new Environment.
-* A warning should be at the top "Package requirement is missing: Django>=....". Install it.
+* Open "manage.py". There should be a warning on the top "Configure Python Interpreter".
+* Do it: Choose "New Environment".
+* Wait some seconds. PyCharm is indexing.
+* A yellow warning should be at the top of manage.py: "Package requirement is missing: Django>=....". Install it. Wait.
 * Configure the runserver like explained here: [runnserver in PyCharm Community Edition](https://stackoverflow.com/questions/27269574/how-to-run-debug-server-for-django-project-in-pycharm-community-edition)
-* Run runserver. `Starting development server at http://127.0.0.1:8000/` should be visible
-* Open the URL in your browser. You should see "The install worked successfully! Congratulations!"
+* Run 'runserver'. `Starting development server at http://127.0.0.1:8000/` should be visible
+* Open the URL of the development server in your browser. You should see "The install worked successfully! Congratulations!"
  
 
