@@ -27,4 +27,6 @@ Open Source since 2020.
 * Run 'runserver'. `Starting development server at http://127.0.0.1:8000/` should be visible
 * Open the URL of the development server in your browser. You should see "The install worked successfully! Congratulations!"
  
+## Development Guidelines
 
+[Thomas's Guidelines](https://github.com/guettli/programming-guidelines)
