@@ -10,4 +10,4 @@ setup(name='whatandwhotree',
       url='https://github.com/guettli/whatandwhotree/',
       packages=['whatandwhotree'],
       install_requires=['Django>=3.0.3', 'django-mptt>=0.11.0'],
-     )
+      )
