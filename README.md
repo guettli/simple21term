@@ -1,4 +1,4 @@
-# Who-owns-what?
+# Who owns what?
 
 A simple way to align projects. From one man shows to startups to well-established companies.
 
