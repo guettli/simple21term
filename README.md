@@ -23,6 +23,7 @@ Open Source since 2020.
 
 
 ## Next
+* Django admin
 * Data for demos and tests.
 
 ## Types of terms
@@ -38,6 +39,7 @@ Open Source since 2020.
 * https://pingboard.com/org-charts/org-chart-resources
 * https://courses.lumenlearning.com/baycollege-introbusiness/chapter/the-organization-chart-and-reporting-structure/
 * https://www.orgchartpro.com/org-chart-examples/
+* https://en.wikipedia.org/wiki/Quality_management_system
 
 ## Installation
 * Install your favorite IDE. For example PyCharm
