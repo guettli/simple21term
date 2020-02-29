@@ -25,6 +25,14 @@ Open Source since 2020.
 ## Next
 * Data for demos and tests.
 
+## Types of terms
+* Role
+* Person
+* Process
+* Tool
+* Ressource
+* ...
+
 ## Links
 * https://www.wikiorgcharts.com/
 * https://pingboard.com/org-charts/org-chart-resources
