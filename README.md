@@ -23,7 +23,9 @@ Open Source since 2020.
 * what - **Term**: This is a particular person, process or tool. It is a flat list.
 
 ## Next
-* Django admin
+* Startpage: Search
+* Which WYSIWYG editor (ckeditor, tinymce, quill, ...)
+* Umbrella term for: People, processes, tools
 * Data for demos and tests.
 
 ## Types of terms
@@ -57,6 +59,9 @@ Open Source since 2020.
 ## Development Guidelines
 
 [Thomas's Guidelines](https://github.com/guettli/programming-guidelines)
+
+## Theory
+[Theory](THEORY.md)
 
 ## Later
 [Not now, later](LATER.md)
