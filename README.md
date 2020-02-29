@@ -16,6 +16,11 @@ It is simple, that's why it is clear, fast and successfull.
 
 Open Source since 2020.
 
+## Terminology
+
+* **Role**: This is a general beautiful tree. From CEO to cleaning person.
+* **Term**: This is a particular person, process or tool. It is a flat list.
+
 ## Installation
 * Install your favorite IDE. For example PyCharm
 * Create new project from Version Control: https://github.com/guettli/who-owns-what.git
