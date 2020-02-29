@@ -18,9 +18,9 @@ Open Source since 2020.
 
 ## Terminology
 
-* **Role**: This is a general beautiful tree. From CEO to cleaning person. This is the [Org Chart](https://en.wikipedia.org/wiki/Organizational_chart)
-* **Term**: This is a particular person, process or tool. It is a flat list.
-
+* who - **Role**: This is a general beautiful tree. From CEO to cleaning person. This is the [Org Chart](https://en.wikipedia.org/wiki/Organizational_chart)
+* owns - **Ownership**: the state, relation, or fact of being an owner (Merriam-Webster). AKA Responsiblity
+* what - **Term**: This is a particular person, process or tool. It is a flat list.
 
 ## Next
 * Django admin
@@ -48,6 +48,8 @@ Open Source since 2020.
 * Do it: Choose "New Environment".
 * Wait some seconds. PyCharm is indexing.
 * A yellow warning should be at the top of manage.py: "Package requirement is missing: Django>=....". Install it. Wait.
+* Run `python manage.py migrate`
+* Run `python manage.py createsuperuser`
 * Configure the runserver like explained here: [runnserver in PyCharm Community Edition](https://stackoverflow.com/questions/27269574/how-to-run-debug-server-for-django-project-in-pycharm-community-edition)
 * Run 'runserver'. `Starting development server at http://127.0.0.1:8000/` should be visible
 * Open the URL of the development server in your browser. You should see "The install worked successfully! Congratulations!"
