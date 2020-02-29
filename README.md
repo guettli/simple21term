@@ -1,14 +1,14 @@
-# What-and-who-tree
+# Who-owns-what?
 
-A simple way to align startups and well-established companies.
+A simple way to align projects. From one man shows to startups to well-established companies.
 
 * It is not ISO 9001:2015, since it is simple.
 * It is not a Wiki, since it is structured.
 * It fits your organization, since you shape it.
 
-The what-and-who-tree helps you to define:
+Who-owns-what helps you to define:
 
-* the roles for your people. 
+* the roles for your people. Fom CEO to the cleaning person
 * the processes for these roles.
 * the terminology for all stakeholders.
 
@@ -18,7 +18,7 @@ Open Source since 2020.
 
 ## Installation
 * Install your favorite IDE. For example PyCharm
-* Create new project from Version Control: https://github.com/guettli/what-and-who-tree.git
+* Create new project from Version Control: https://github.com/guettli/who-own-what.git
 * Go to "mysite/mysite/manage.py". There should be a warning on the top "Configure Python Interpreter".
 * Do it: Add a new Environment.
 * A warning should be at the top "Package requirement is missing: Django>=....". Install it.
