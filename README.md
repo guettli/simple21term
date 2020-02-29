@@ -21,6 +21,14 @@ Open Source since 2020.
 * **Role**: This is a general beautiful tree. From CEO to cleaning person. This is the [Org Chart](https://en.wikipedia.org/wiki/Organizational_chart)
 * **Term**: This is a particular person, process or tool. It is a flat list.
 
+
+## Next
+* Data for demos and tests.
+
+## Links
+* https://www.wikiorgcharts.com/
+* https://pingboard.com/org-charts/org-chart-resources
+
 ## Installation
 * Install your favorite IDE. For example PyCharm
 * Create new project from Version Control: https://github.com/guettli/who-owns-what.git
