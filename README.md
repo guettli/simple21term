@@ -18,7 +18,7 @@ Open Source since 2020.
 
 ## Terminology
 
-* **Role**: This is a general beautiful tree. From CEO to cleaning person.
+* **Role**: This is a general beautiful tree. From CEO to cleaning person. This is the [Org Chart](https://en.wikipedia.org/wiki/Organizational_chart)
 * **Term**: This is a particular person, process or tool. It is a flat list.
 
 ## Installation
