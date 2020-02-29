@@ -1,6 +1,6 @@
-# Later, not now
+# not now, later
 
-To focus on [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) we 
+To focus on the [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) we 
 need to say "not now, later" to a lot of things
 
 List for ideas for the future.
