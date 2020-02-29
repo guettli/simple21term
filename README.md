@@ -28,6 +28,7 @@ Open Source since 2020.
 ## Links
 * https://www.wikiorgcharts.com/
 * https://pingboard.com/org-charts/org-chart-resources
+* https://courses.lumenlearning.com/baycollege-introbusiness/chapter/the-organization-chart-and-reporting-structure/
 
 ## Installation
 * Install your favorite IDE. For example PyCharm
