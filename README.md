@@ -30,6 +30,7 @@ pre-alpha (unusable)
 * https://courses.lumenlearning.com/baycollege-introbusiness/chapter/the-organization-chart-and-reporting-structure/
 * https://www.orgchartpro.com/org-chart-examples/
 * https://en.wikipedia.org/wiki/Quality_management_system
+* https://developers.google.com/tech-writing/overview
 
 ## Installation
 * Install your favorite IDE. For example PyCharm (Community Edition is enough)
