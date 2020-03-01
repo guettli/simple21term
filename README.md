@@ -33,7 +33,7 @@ pre-alpha (unusable)
 
 ## Installation
 * Install your favorite IDE. For example PyCharm (Community Edition is enough)
-* Create new (empty) project: [Create a Python project](https://www.jetbrains.com/help/pycharm/creating-empty-project.html)
+* Create new (empty) project: [Create a Python project](https://www.jetbrains.com/help/pycharm/creating-empty-project.html). Name it "who-or-what".
 * [Set up a Git repository](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html) URL: https://github.com/guettli/who-or-what-is-xyz.git
 * Wait some seconds. PyCharm is indexing.
 * A yellow warning should be at the top of manage.py: "Package requirement is missing: Django>=....". Install it. Wait.
