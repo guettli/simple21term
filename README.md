@@ -11,6 +11,7 @@ Who-or-what-is-xyz helps you to define:
 * processes
 * tools
 * resources
+* ...
 
 Open Source since 2020.
 
@@ -32,7 +33,7 @@ pre-alpha (unusable)
 
 ## Installation
 * Install your favorite IDE. For example PyCharm
-* Create new project from Version Control: https://github.com/guettli/who-owns-what.git
+* Create new project from Version Control: https://github.com/guettli/who-or-what-is-xyz.git
 * Open "manage.py". There should be a warning on the top "Configure Python Interpreter".
 * Do it: Choose "New Environment".
 * Wait some seconds. PyCharm is indexing.
