@@ -32,10 +32,9 @@ pre-alpha (unusable)
 * https://en.wikipedia.org/wiki/Quality_management_system
 
 ## Installation
-* Install your favorite IDE. For example PyCharm
-* Create new project from Version Control: https://github.com/guettli/who-or-what-is-xyz.git
-* Open "manage.py". There should be a warning on the top "Configure Python Interpreter".
-* Do it: Choose "New Environment".
+* Install your favorite IDE. For example PyCharm (Community Edition is enough)
+* Create new project (empty) project: [Create a Python project](https://www.jetbrains.com/help/pycharm/creating-empty-project.html)
+* [Set up a Git repository](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html) URL: https://github.com/guettli/who-or-what-is-xyz.git
 * Wait some seconds. PyCharm is indexing.
 * A yellow warning should be at the top of manage.py: "Package requirement is missing: Django>=....". Install it. Wait.
 * Run `python manage.py migrate`
