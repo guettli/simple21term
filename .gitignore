@@ -1,4 +1,4 @@
 .idea
 venv
-whatandwhotree.egg-info
+xyz.egg-info
 *.sqlite3

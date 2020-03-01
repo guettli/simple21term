@@ -7,7 +7,7 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('whatandwhotree', '0001_initial'),
+        ('xyz', '0001_initial'),
     ]
 
     operations = [
@@ -27,7 +27,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='term',
             name='type',
-            field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.PROTECT, to='whatandwhotree.Type'),
+            field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.PROTECT, to='xyz.Type'),
             preserve_default=False,
         ),
     ]

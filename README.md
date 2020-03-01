@@ -1,40 +1,27 @@
-# Who owns what?
+# Who or what is xyz?
 
-A simple way to align projects. From one man shows to startups to well-established companies.
+A Who-or-what-is-xyz is a simple way to a [Single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth)
+ in your project, company or startup. Even, if information is scattered
+ in several insular [Information silos](https://en.wikipedia.org/wiki/Information_silo).
 
-* It is not ISO 9001:2015, since it is simple.
-* It is not a Wiki, since it is structured.
-* It fits your organization, since you shape it.
+Who-or-what-is-xyz helps you to define:
 
-Who-owns-what helps you to define:
-
-* the roles for your people. Fom CEO to the cleaning person
-* the processes for these roles.
-* the terminology for all stakeholders.
-
-It is simple, that's why it is clear, fast and successfull.
+* terminology
+* roles
+* processes
+* tools
+* resources
 
 Open Source since 2020.
 
-## Terminology
-
-* who - **Role**: This is a general beautiful tree. From CEO to cleaning person. This is the [Org Chart](https://en.wikipedia.org/wiki/Organizational_chart)
-* owns - **Ownership**: the state, relation, or fact of being an owner (Merriam-Webster). AKA Responsiblity
-* what - **Term**: This is a particular person, process or tool. It is a flat list.
+## State
+pre-alpha (unusable)
 
 ## Next
-* Startpage: Search
+* Startpage: Search (use Template from google search page)
 * Which WYSIWYG editor (ckeditor, tinymce, quill, ...)
 * Umbrella term for: People, processes, tools
 * Data for demos and tests.
-
-## Types of terms
-* Role
-* Person
-* Process
-* Tool
-* Ressource
-* ...
 
 ## Links
 * https://www.wikiorgcharts.com/

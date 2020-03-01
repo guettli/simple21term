@@ -30,6 +30,17 @@ List for ideas for the future.
 * Integration of multiple information systems: Confluence, SharePoint, ...
 * Three ...: public (world wide), intranet public (everybody within the company), confidential
 
+## Advertising
+* Wikipedia Entry xyz. Link to github project
+* It is not ISO 9001:2015, since it is simple.
+* It is not a Wiki, since it is structured.
+* It fits your organization, since you shape it.
+* It is simple, that's why it is clear, fast and successfull.
+* "Movement"
+
+## Misc
+* Use xyz toplevel domain? :-)
+
 ## Partners
 * Education, Universities
 

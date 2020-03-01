@@ -24,7 +24,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mptt',
-    'whatandwhotree',
+    'xyz',
 ]
 
 MIDDLEWARE = [

@@ -16,9 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-import whatandwhotree.views
+import xyz.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', whatandwhotree.views.index),
+    path('', xyz.views.index),
 ]

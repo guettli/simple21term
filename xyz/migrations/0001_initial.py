@@ -23,7 +23,7 @@ class Migration(migrations.Migration):
                 ('level', models.PositiveIntegerField(editable=False)),
                 ('parent',
                  mptt.fields.TreeForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE,
-                                            related_name='children', to='whatandwhotree.Term')),
+                                            related_name='children', to='xyz.Term')),
             ],
             options={
                 'abstract': False,
