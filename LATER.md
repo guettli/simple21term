@@ -7,6 +7,7 @@ List for ideas for the future.
 
 ## Features
 
+* Attributes like "Contact: Slack-Channel, Email, ..." "valid from date", "valid until "
 * Per Type: Additional input fields. For example "person" has birthday. 
 * White and clean search page.
 * View Permissions: Public, all registered users, custom group
