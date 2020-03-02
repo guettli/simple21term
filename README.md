@@ -41,6 +41,11 @@ pre-alpha (unusable)
 * Open "manage.py". A yellow warning is at the top "No Python interpreter is configured for the project". Choose "Configure Python Interpreter". Choose "add", then "New Environment".
 * Wait some seconds. PyCharm is indexing.
 * A yellow warning should be at the top of manage.py: "Package requirement is missing: Django>=....". Install it. Wait.
+
+Congratulations, now you have the needed source code installed.
+
+Now create the database tables, a superuser and start the server:
+
 * In terminal `python manage.py migrate` (or in PyCharm "Run/migrate")
 * In terminal `python manage.py createsuperuser`
 * In terminal `python manage.py runserver` (or in PyCharm "Run/runserver"). *Starting development server at http://127.0.0.1:8000/* should be visible
