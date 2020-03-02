@@ -1,0 +1,7 @@
+<form action=".">
+  Who or what is <input type="text" name="q" placeholder="xyz?">
+  <input type="submit">
+</form>
+{% for term in queryset %}
+ {{term.name}}<br>
+{% endfor %}

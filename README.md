@@ -19,7 +19,8 @@ Open Source since 2020.
 pre-alpha (unusable)
 
 ## Next
-* Startpage: Search (use Template from google search page)
+* Log every search, incl datetime, user, number of results.
+* Feedback-Button
 * Which WYSIWYG editor (ckeditor, tinymce, quill, ...)
 * Umbrella term for: People, processes, tools
 * Data for demos and tests.
@@ -31,6 +32,7 @@ pre-alpha (unusable)
 * https://www.orgchartpro.com/org-chart-examples/
 * https://en.wikipedia.org/wiki/Quality_management_system
 * https://developers.google.com/tech-writing/overview
+* https://google.github.io/styleguide/
 
 ## Installation
 * Install your favorite IDE. For example PyCharm (Community Edition is enough)
