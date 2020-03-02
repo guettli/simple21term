@@ -2,3 +2,5 @@
 venv
 xyz.egg-info
 *.sqlite3
+
+!.idea

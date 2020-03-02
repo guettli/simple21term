@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9eaeb42b-d656-4555-99bb-5cf526f7e031" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YaVK8yBXSghLr1pDZGaZflnR74" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.runserver">
+    <list>
+      <item itemvalue="Python.migrate" />
+      <item itemvalue="Python.runserver" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9eaeb42b-d656-4555-99bb-5cf526f7e031" name="Default Changelist" comment="" />
+      <created>1583180625800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583180625800</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="166" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583181335949">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="166" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/51.27.1315.741@51.27.1315.741" timestamp="1583181335949" />
+    <state x="491" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583181240375">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="491" y="154" width="424" height="484" key="FileChooserDialogImpl/51.27.1315.741@51.27.1315.741" timestamp="1583181240375" />
+    <state width="1292" height="175" key="GridCell.Tab.0.bottom" timestamp="1583181254109">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state width="1292" height="175" key="GridCell.Tab.0.bottom/51.27.1315.741@51.27.1315.741" timestamp="1583181254109" />
+    <state width="1292" height="175" key="GridCell.Tab.0.center" timestamp="1583181254108">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state width="1292" height="175" key="GridCell.Tab.0.center/51.27.1315.741@51.27.1315.741" timestamp="1583181254108" />
+    <state width="1292" height="175" key="GridCell.Tab.0.left" timestamp="1583181254108">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state width="1292" height="175" key="GridCell.Tab.0.left/51.27.1315.741@51.27.1315.741" timestamp="1583181254108" />
+    <state width="1292" height="175" key="GridCell.Tab.0.right" timestamp="1583181254109">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state width="1292" height="175" key="GridCell.Tab.0.right/51.27.1315.741@51.27.1315.741" timestamp="1583181254109" />
+    <state x="197" y="31" key="SettingsEditor" timestamp="1583180874466">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="197" y="31" key="SettingsEditor/51.27.1315.741@51.27.1315.741" timestamp="1583180874466" />
+    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1583180701641">
+      <screen x="51" y="27" width="1315" height="741" />
+    </state>
+    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup/51.27.1315.741@51.27.1315.741" timestamp="1583180701641" />
+  </component>
+</project>
