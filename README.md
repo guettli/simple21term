@@ -39,11 +39,10 @@ pre-alpha (unusable)
 * Open "manage.py". A yellow warning is at the top "No Python interpreter is configured for the project". Choose "Configure Python Interpreter". Choose "add", then "New Environment".
 * Wait some seconds. PyCharm is indexing.
 * A yellow warning should be at the top of manage.py: "Package requirement is missing: Django>=....". Install it. Wait.
-* Run `python manage.py migrate`
-* Run `python manage.py createsuperuser`
-* Configure the runserver like explained here: [runnserver in PyCharm Community Edition](https://stackoverflow.com/questions/27269574/how-to-run-debug-server-for-django-project-in-pycharm-community-edition)
-* Run 'runserver'. `Starting development server at http://127.0.0.1:8000/` should be visible
-* Open the URL of the development server in your browser. You should see "The install worked successfully! Congratulations!"
+* In terminal `python manage.py migrate` (or in PyCharm "Run/migrate")
+* In terminal `python manage.py createsuperuser`
+* In terminal `python manage.py runserver` (or in PyCharm "Run/runserver"). *Starting development server at http://127.0.0.1:8000/* should be visible
+* Open the URL of the development server in your browser. You should see "TODO"
  
 ## Development Guidelines
 
