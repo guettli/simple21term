@@ -5,7 +5,7 @@ need to say "not now, later" to a lot of things
 
 List for ideas for the future.
 
-## Features
+## Tech Features
 
 * History of changes. DB-Trigger? Even undo of changes... would be very cool
 * Attributes like "Contact: Slack-Channel, Email, ..." "valid from date", "valid until "
@@ -18,21 +18,26 @@ List for ideas for the future.
 * Share URL (Mail, Slack, ...)
 * Hyperlinks to different sources.
 * Synonyms of terms.
-* Theory about the concept.
-* Certification. Three Levels: Theory, Usage, Consulting.
 * Clone system. Then a second system can get used to test new structures, for education, ...
 * Make PyCharm commands "runserver", "makemigration", "migrate" automatically available.
 * WYSIWYG editor with paginated queryset result.
 * Feedback workflow. Every page should have a "feedback" button.
 * Face above the search field, which smileys if you enter a term.
 * Sync data: For example customer-DB. ERP Systems (SAP) 
+* Cache-Forever trick: URL to term includes its version-ID. The content never changes :-)
+* React Frontend
+* mobile later. First focus on desktop.
+
+## Misc
+
+* Certification. Three Levels: Theory, Usage, Consulting.
 
 
 ## Hosting
 
 * Heroku
 
-## Theory
+## QM Theory
 * single source of truth: https://en.wikipedia.org/wiki/Single_source_of_truth
 * Integration of multiple information systems: Confluence, SharePoint, ...
 * Three ...: public (world wide), intranet public (everybody within the company), confidential

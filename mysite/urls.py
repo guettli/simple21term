@@ -20,5 +20,5 @@ import xyz.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', xyz.views.index),
+    path('', include('xyz.urls')),
 ]

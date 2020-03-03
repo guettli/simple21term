@@ -1,0 +1,8 @@
+{% extends "xyz/base.html" %}
+
+{% block title %}Term {{ term.name }}{% endblock %}
+
+{% block content %}
+<dt>Term {{ term.name }}</dt>
+<dd>{{ term.text | safe }}</dd>
+{% endblock %}

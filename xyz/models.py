@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 from mptt.models import MPTTModel, TreeForeignKey
 
 
@@ -16,6 +17,9 @@ class Term(MPTTModel):
 
     def __str__(self):
         return self.name
+
+    def get_absolute_url(self):
+        return reverse('term', kwargs=dict(id=self.id))
 
     class MPTTMeta:
         order_insertion_by = ['name']

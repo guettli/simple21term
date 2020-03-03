@@ -1,13 +1,10 @@
-{% load sitetree %}
-{% sitetree_menu from "maintree" include "trunk" %}
-{% sitetree_breadcrumbs from "maintree" %}
+{% extends "xyz/base.html" %}
 
-<form action=".">
-  Who or what is <input type="text" name="q" placeholder="xyz?">
-  <input type="submit">
-</form>
+{% block content %}
 {% for term in queryset %}
-  <dt><a href="{{term.get_absolute_url}}">{{term.name}}</dt>
+  <dt><a href="{{term.get_absolute_url}}">{{term.name}}</a></dt>
   <dd>{{term.text | safe}}</dd>
   <br>
 {% endfor %}
+
+{% endblock %}
