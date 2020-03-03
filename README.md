@@ -19,9 +19,8 @@ Open Source since 2020.
 pre-alpha (unusable)
 
 ## Next
-* Log every search, incl datetime, user, number of results.
+* Same header (Django Admin and Search/Result)
 * Feedback-Button
-* Which WYSIWYG editor (ckeditor, tinymce, quill, ...)
 * Umbrella term for: People, processes, tools
 * Data for demos and tests.
 

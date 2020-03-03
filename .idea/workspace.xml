@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9eaeb42b-d656-4555-99bb-5cf526f7e031" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LATER.md" beforeDir="false" afterPath="$PROJECT_DIR$/LATER.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xyz/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/xyz/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xyz/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/xyz/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xyz/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/xyz/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,24 +107,32 @@
       <option name="project" value="LOCAL" />
       <updated>1583253702166</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="SearchLog and GlobalConfig">
+      <created>1583255826035</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583255826035</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <MESSAGE value="quill WYSIWYG is working." />
     <MESSAGE value="term view, incl test." />
-    <option name="LAST_COMMIT_MESSAGE" value="term view, incl test." />
+    <MESSAGE value="SearchLog and GlobalConfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="SearchLog and GlobalConfig" />
   </component>
   <component name="WindowStateProjectService">
     <state x="166" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583181335949">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
     <state x="166" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/51.27.1315.741@51.27.1315.741" timestamp="1583181335949" />
-    <state x="312" y="27" width="967" height="741" key="CommitChangelistDialog2" timestamp="1583253702020">
+    <state x="312" y="27" width="967" height="741" key="CommitChangelistDialog2" timestamp="1583255825853">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
-    <state x="312" y="27" width="967" height="741" key="CommitChangelistDialog2/51.27.1315.741@51.27.1315.741" timestamp="1583253702020" />
+    <state x="312" y="27" width="967" height="741" key="CommitChangelistDialog2/51.27.1315.741@51.27.1315.741" timestamp="1583255825853" />
     <state x="151" y="125" width="1115" height="543" key="DiffContextDialog" timestamp="1583238145939">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
@@ -162,10 +165,10 @@
       <screen x="51" y="27" width="1315" height="741" />
     </state>
     <state width="498" height="446" key="SwitcherDM/51.27.1315.741@51.27.1315.741" timestamp="1583255571819" />
-    <state x="303" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1583253704227">
+    <state x="303" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1583255827814">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
-    <state x="303" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/51.27.1315.741@51.27.1315.741" timestamp="1583253704227" />
+    <state x="303" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/51.27.1315.741@51.27.1315.741" timestamp="1583255827814" />
     <state x="476" y="316" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583241804796">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
@@ -174,9 +177,9 @@
       <screen x="51" y="27" width="1315" height="741" />
     </state>
     <state x="356" y="108" width="704" height="576" key="find.popup/51.27.1315.741@51.27.1315.741" timestamp="1583238178956" />
-    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1583255478050">
+    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1583255983043">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
-    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup/51.27.1315.741@51.27.1315.741" timestamp="1583255478050" />
+    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup/51.27.1315.741@51.27.1315.741" timestamp="1583255983043" />
   </component>
 </project>
