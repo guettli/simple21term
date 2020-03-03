@@ -27,6 +27,7 @@ List for ideas for the future.
 * Cache-Forever trick: URL to term includes its version-ID. The content never changes :-)
 * React Frontend
 * mobile later. First focus on desktop.
+* Google and office365 Authentication
 
 ## Misc
 

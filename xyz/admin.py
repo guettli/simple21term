@@ -1,7 +1,9 @@
 from django.contrib import admin
+from django.contrib.admin import ModelAdmin
 from mptt.admin import MPTTModelAdmin
 
-from .models import Term, Type
+from .models import Term, Type, SearchLog
+
 
 class TermAdmin(MPTTModelAdmin):
     class Media:
@@ -16,3 +18,8 @@ class TermAdmin(MPTTModelAdmin):
 
 admin.site.register(Term, TermAdmin)
 admin.site.register(Type)
+
+class SearchLogAdmin(ModelAdmin):
+    list_display = ['query', 'user', 'datetime', 'result_count']
+    readonly_fields = list_display
+admin.site.register(SearchLog, SearchLogAdmin)

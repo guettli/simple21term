@@ -44,11 +44,11 @@ pre-alpha (unusable)
 
 Congratulations, now you have the needed source code installed.
 
-Now create the database tables, a superuser and start the server:
 
-* In terminal `python manage.py migrate` (or in PyCharm "Run/migrate")
-* In terminal `python manage.py createsuperuser`
-* In terminal `python manage.py runserver` (or in PyCharm "Run/runserver"). *Starting development server at http://127.0.0.1:8000/* should be visible
+* Create database tables: In terminal `python manage.py migrate` (or in PyCharm "Run/migrate")
+* Create superuser: In terminal `python manage.py createsuperuser`
+* Run tests: In terminal `python manage.py test xyz` (if there is something wrong, please create an [issue](https://github.com/guettli/who-or-what-is-xyz/issues))
+* Run development server: In terminal `python manage.py runserver` (or in PyCharm "Run/runserver"). *Starting development server at http://127.0.0.1:8000/* should be visible
 * Open the URL of the development server in your browser. You should see "TODO"
  
 ## Development Guidelines
