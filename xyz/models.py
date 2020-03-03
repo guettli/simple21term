@@ -13,6 +13,7 @@ class Term(MPTTModel):
     parent = TreeForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='children')
     type = models.ForeignKey(Type, on_delete=models.PROTECT)
     text = models.TextField(default='', blank=True)
+
     def __str__(self):
         return self.name
 

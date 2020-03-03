@@ -1,7 +1,13 @@
+{% load sitetree %}
+{% sitetree_menu from "maintree" include "trunk" %}
+{% sitetree_breadcrumbs from "maintree" %}
+
 <form action=".">
   Who or what is <input type="text" name="q" placeholder="xyz?">
   <input type="submit">
 </form>
 {% for term in queryset %}
- {{term.name}}<br>
+  <dt><a href="{{term.get_absolute_url}}">{{term.name}}</dt>
+  <dd>{{term.text | safe}}</dd>
+  <br>
 {% endfor %}

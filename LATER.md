@@ -27,6 +27,11 @@ List for ideas for the future.
 * Face above the search field, which smileys if you enter a term.
 * Sync data: For example customer-DB. ERP Systems (SAP) 
 
+
+## Hosting
+
+* Heroku
+
 ## Theory
 * single source of truth: https://en.wikipedia.org/wiki/Single_source_of_truth
 * Integration of multiple information systems: Confluence, SharePoint, ...
