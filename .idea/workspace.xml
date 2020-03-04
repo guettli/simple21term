@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9eaeb42b-d656-4555-99bb-5cf526f7e031" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LATER.md" beforeDir="false" afterPath="$PROJECT_DIR$/LATER.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +57,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for xyz.tests.TermTests.test_term__get_absolute_url" />
-      <item itemvalue="Python tests.Unittests for xyz.tests.TermTests.test_term_view" />
       <item itemvalue="Python.migrate" />
       <item itemvalue="Python.runserver" />
+      <item itemvalue="Python tests.Unittests for xyz.tests.TermTests.test_term__get_absolute_url" />
+      <item itemvalue="Python tests.Unittests for xyz.tests.TermTests.test_term_view" />
     </list>
     <recent_temporary>
       <list>
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583256070928</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=".">
+      <created>1583310291270</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583310291270</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,10 +144,10 @@
       <screen x="51" y="27" width="1315" height="741" />
     </state>
     <state x="166" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/51.27.1315.741@51.27.1315.741" timestamp="1583181335949" />
-    <state x="312" y="27" width="967" height="741" key="CommitChangelistDialog2" timestamp="1583256070812">
+    <state x="312" y="27" width="967" height="741" key="CommitChangelistDialog2" timestamp="1583310290707">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
-    <state x="312" y="27" width="967" height="741" key="CommitChangelistDialog2/51.27.1315.741@51.27.1315.741" timestamp="1583256070812" />
+    <state x="312" y="27" width="967" height="741" key="CommitChangelistDialog2/51.27.1315.741@51.27.1315.741" timestamp="1583310290707" />
     <state x="151" y="125" width="1115" height="543" key="DiffContextDialog" timestamp="1583238145939">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
@@ -173,21 +180,21 @@
       <screen x="51" y="27" width="1315" height="741" />
     </state>
     <state width="498" height="446" key="SwitcherDM/51.27.1315.741@51.27.1315.741" timestamp="1583255571819" />
-    <state x="303" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1583256072478">
+    <state x="303" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1583310293425">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
-    <state x="303" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/51.27.1315.741@51.27.1315.741" timestamp="1583256072478" />
+    <state x="303" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/51.27.1315.741@51.27.1315.741" timestamp="1583310293425" />
     <state x="476" y="316" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583241804796">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
     <state x="476" y="316" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/51.27.1315.741@51.27.1315.741" timestamp="1583241804796" />
-    <state x="356" y="108" width="704" height="576" key="find.popup" timestamp="1583238178956">
+    <state x="356" y="108" width="704" height="576" key="find.popup" timestamp="1583353118443">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
-    <state x="356" y="108" width="704" height="576" key="find.popup/51.27.1315.741@51.27.1315.741" timestamp="1583238178956" />
-    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1583255983043">
+    <state x="356" y="108" width="704" height="576" key="find.popup/51.27.1315.741@51.27.1315.741" timestamp="1583353118443" />
+    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1583353050052">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
-    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup/51.27.1315.741@51.27.1315.741" timestamp="1583255983043" />
+    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup/51.27.1315.741@51.27.1315.741" timestamp="1583353050052" />
   </component>
 </project>

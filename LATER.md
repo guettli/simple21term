@@ -42,6 +42,8 @@ List for ideas for the future.
 * single source of truth: https://en.wikipedia.org/wiki/Single_source_of_truth
 * Integration of multiple information systems: Confluence, SharePoint, ...
 * Three ...: public (world wide), intranet public (everybody within the company), confidential
+* Org Charts: What is the name of the line between the boxes? A owns B, A is responsible for B, A is accountable for B, A manages B, B reports to A, ... oh what fun.
+
 
 ## Advertising
 * Wikipedia Entry xyz. Link to github project

@@ -35,6 +35,9 @@ pre-alpha (unusable)
 * https://en.wikipedia.org/wiki/Advanced_product_quality_planning
 
 # Feedback Loops
+
+Different kind of feedback loops, or "same content, differnt names"?
+
 * https://en.wikipedia.org/wiki/Lean_startup#Build-Measure-Learn
 * https://en.wikipedia.org/wiki/DMAIC
 * https://en.wikipedia.org/wiki/Six_Sigma#DMADV_or_DFSS
