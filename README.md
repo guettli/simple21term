@@ -32,6 +32,15 @@ pre-alpha (unusable)
 * https://en.wikipedia.org/wiki/Quality_management_system
 * https://developers.google.com/tech-writing/overview
 * https://google.github.io/styleguide/
+* https://en.wikipedia.org/wiki/Advanced_product_quality_planning
+
+# Feedback Loops
+* https://en.wikipedia.org/wiki/Lean_startup#Build-Measure-Learn
+* https://en.wikipedia.org/wiki/DMAIC
+* https://en.wikipedia.org/wiki/Six_Sigma#DMADV_or_DFSS
+* https://en.wikipedia.org/wiki/Program_lifecycle_phase
+* https://en.wikipedia.org/wiki/PDCA
+* https://en.wikipedia.org/wiki/Feedback
 
 ## Installation
 * Install your favorite IDE. For example PyCharm (Community Edition is enough)
