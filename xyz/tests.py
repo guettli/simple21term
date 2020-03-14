@@ -2,6 +2,7 @@
 from django.test import TestCase
 from django.urls import reverse
 from django.utils import timezone
+from django.utils.functional import cached_property
 
 from . import views
 from .models import Term, Type
@@ -9,20 +10,29 @@ from django.test import Client
 
 class TermTests(TestCase):
 
-    def create_type(self):
-        return Type.objects.create(name="testtype")
+    @cached_property
+    def type(self):
+        return Type.objects.update_or_create(name="testtype")[0]
 
-    def create_term(self):
-        return Term.objects.create(name="foo", text="bar", type=self.create_type())
+    @cached_property
+    def term(self):
+        return Term.objects.update_or_create(name="foo", defaults=dict(text="bar", type=self.type))[0]
+
+    @cached_property
+    def sub_term(self):
+        return Term.objects.update_or_create(name="sub", defaults=dict(
+            parent=self.term,
+            text="sub-bar", type=self.type))[0]
 
     def test_term__get_absolute_url(self):
-        term = self.create_term()
-        self.assertEqual('/terms/{}/'.format(term.id), term.get_absolute_url())
+        self.assertEqual('/terms/{}/'.format(self.term.id), self.term.get_absolute_url())
+
+    def test_str_of_sub_term(self):
+        self.assertEqual('foo / sub', str(self.sub_term))
 
     def test_term_view(self):
-        term = self.create_term()
         c = Client()
-        response = c.get(term.get_absolute_url())
+        response = c.get(self.term.get_absolute_url())
         self.assertContains(response, '<dd>bar</dd>')
 
         response = c.get(reverse(views.index), dict(q='foo'))

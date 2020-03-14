@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eaeb42b-d656-4555-99bb-5cf526f7e031" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/who-or-what-is-xyz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/who-or-what-is-xyz.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LATER.md" beforeDir="false" afterPath="$PROJECT_DIR$/LATER.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xyz/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/xyz/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xyz/templates/xyz/term.html" beforeDir="false" afterPath="$PROJECT_DIR$/xyz/templates/xyz/term.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xyz/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/xyz/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +28,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for xyz.tests.TermTests.test_term_view">
+  <component name="RunManager" selected="Python tests.pytest for xyz.tests.TermTests.test_str_of_sub_term">
     <configuration name="Unittests for xyz.tests.TermTests.test_term__get_absolute_url" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="who-or-what-is-xyz" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,16 +59,33 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for xyz.tests.TermTests.test_str_of_sub_term" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="who-or-what-is-xyz" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;xyz.tests.TermTests.test_str_of_sub_term&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.migrate" />
       <item itemvalue="Python.runserver" />
       <item itemvalue="Python tests.Unittests for xyz.tests.TermTests.test_term__get_absolute_url" />
       <item itemvalue="Python tests.Unittests for xyz.tests.TermTests.test_term_view" />
+      <item itemvalue="Python tests.pytest for xyz.tests.TermTests.test_str_of_sub_term" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for xyz.tests.TermTests.test_term_view" />
+        <item itemvalue="Python tests.pytest for xyz.tests.TermTests.test_str_of_sub_term" />
         <item itemvalue="Python tests.Unittests for xyz.tests.TermTests.test_term__get_absolute_url" />
+        <item itemvalue="Python tests.Unittests for xyz.tests.TermTests.test_term_view" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583310291270</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=".">
+      <created>1583353180791</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583353180791</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -140,14 +167,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="166" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583181335949">
+    <state x="166" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584218617164">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
-    <state x="166" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/51.27.1315.741@51.27.1315.741" timestamp="1583181335949" />
-    <state x="312" y="27" width="967" height="741" key="CommitChangelistDialog2" timestamp="1583310290707">
+    <state x="166" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/51.27.1315.741@51.27.1315.741" timestamp="1584218617164" />
+    <state x="312" y="27" width="967" height="741" key="CommitChangelistDialog2" timestamp="1583353180581">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
-    <state x="312" y="27" width="967" height="741" key="CommitChangelistDialog2/51.27.1315.741@51.27.1315.741" timestamp="1583310290707" />
+    <state x="312" y="27" width="967" height="741" key="CommitChangelistDialog2/51.27.1315.741@51.27.1315.741" timestamp="1583353180581" />
     <state x="151" y="125" width="1115" height="543" key="DiffContextDialog" timestamp="1583238145939">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
@@ -156,34 +183,34 @@
       <screen x="51" y="27" width="1315" height="741" />
     </state>
     <state x="491" y="154" width="424" height="484" key="FileChooserDialogImpl/51.27.1315.741@51.27.1315.741" timestamp="1583181240375" />
-    <state width="1292" height="451" key="GridCell.Tab.0.bottom" timestamp="1583253234308">
+    <state width="1292" height="306" key="GridCell.Tab.0.bottom" timestamp="1584218621558">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
-    <state width="1292" height="451" key="GridCell.Tab.0.bottom/51.27.1315.741@51.27.1315.741" timestamp="1583253234308" />
-    <state width="1292" height="451" key="GridCell.Tab.0.center" timestamp="1583253234306">
+    <state width="1292" height="306" key="GridCell.Tab.0.bottom/51.27.1315.741@51.27.1315.741" timestamp="1584218621558" />
+    <state width="1292" height="306" key="GridCell.Tab.0.center" timestamp="1584218621557">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
-    <state width="1292" height="451" key="GridCell.Tab.0.center/51.27.1315.741@51.27.1315.741" timestamp="1583253234306" />
-    <state width="1292" height="451" key="GridCell.Tab.0.left" timestamp="1583253234305">
+    <state width="1292" height="306" key="GridCell.Tab.0.center/51.27.1315.741@51.27.1315.741" timestamp="1584218621557" />
+    <state width="1292" height="306" key="GridCell.Tab.0.left" timestamp="1584218621557">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
-    <state width="1292" height="451" key="GridCell.Tab.0.left/51.27.1315.741@51.27.1315.741" timestamp="1583253234305" />
-    <state width="1292" height="451" key="GridCell.Tab.0.right" timestamp="1583253234307">
+    <state width="1292" height="306" key="GridCell.Tab.0.left/51.27.1315.741@51.27.1315.741" timestamp="1584218621557" />
+    <state width="1292" height="306" key="GridCell.Tab.0.right" timestamp="1584218621558">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
-    <state width="1292" height="451" key="GridCell.Tab.0.right/51.27.1315.741@51.27.1315.741" timestamp="1583253234307" />
-    <state x="197" y="31" key="SettingsEditor" timestamp="1583180874466">
+    <state width="1292" height="306" key="GridCell.Tab.0.right/51.27.1315.741@51.27.1315.741" timestamp="1584218621558" />
+    <state x="197" y="31" key="SettingsEditor" timestamp="1584217753425">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
-    <state x="197" y="31" key="SettingsEditor/51.27.1315.741@51.27.1315.741" timestamp="1583180874466" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1583255571819">
+    <state x="197" y="31" key="SettingsEditor/51.27.1315.741@51.27.1315.741" timestamp="1584217753425" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1584218702971">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/51.27.1315.741@51.27.1315.741" timestamp="1583255571819" />
-    <state x="303" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1583310293425">
+    <state width="498" height="446" key="SwitcherDM/51.27.1315.741@51.27.1315.741" timestamp="1584218702971" />
+    <state x="303" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1583353182509">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
-    <state x="303" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/51.27.1315.741@51.27.1315.741" timestamp="1583310293425" />
+    <state x="303" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/51.27.1315.741@51.27.1315.741" timestamp="1583353182509" />
     <state x="476" y="316" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583241804796">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
@@ -192,9 +219,9 @@
       <screen x="51" y="27" width="1315" height="741" />
     </state>
     <state x="356" y="108" width="704" height="576" key="find.popup/51.27.1315.741@51.27.1315.741" timestamp="1583353118443" />
-    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1583353050052">
+    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1584217733621">
       <screen x="51" y="27" width="1315" height="741" />
     </state>
-    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup/51.27.1315.741@51.27.1315.741" timestamp="1583353050052" />
+    <state x="371" y="89" width="672" height="678" key="search.everywhere.popup/51.27.1315.741@51.27.1315.741" timestamp="1584217733621" />
   </component>
 </project>

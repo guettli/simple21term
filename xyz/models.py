@@ -17,7 +17,7 @@ class Term(MPTTModel):
     text = models.TextField(default='', blank=True)
 
     def __str__(self):
-        return self.name
+        return ' / '.join([term.name for term in self.get_ancestors(include_self=True)])
 
     def get_absolute_url(self):
         return reverse('term', kwargs=dict(id=self.id))
@@ -44,4 +44,4 @@ class GlobalConfig(models.Model):
         config = cls.objects.filter(id=cls.ID).first()
         if config:
             return config
-        return cls.create(anonymous_user=User.objects.get_or_create(username=cls.anonymous_user_name))[0]
+        return cls.objects.create(anonymous_user=User.objects.get_or_create(username=cls.anonymous_user_name)[0])
