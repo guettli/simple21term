@@ -8,6 +8,9 @@ from . import views
 from .models import Term, Type
 from django.test import Client
 
+from .views import get_queryset
+
+
 class TermTests(TestCase):
 
     @cached_property
@@ -22,7 +25,7 @@ class TermTests(TestCase):
     def sub_term(self):
         return Term.objects.update_or_create(name="sub", defaults=dict(
             parent=self.term,
-            text="sub-bar", type=self.type))[0]
+            text="sub-bar funny", type=self.type))[0]
 
     def test_term__get_absolute_url(self):
         self.assertEqual('/terms/{}/'.format(self.term.id), self.term.get_absolute_url())
@@ -38,3 +41,6 @@ class TermTests(TestCase):
         response = c.get(reverse(views.index), dict(q='foo'))
         self.assertContains(response, '<dd>bar</dd>')
 
+    def test_get_queryset(self):
+        self.assertTrue('sub-bar funny', self.sub_term)
+        self.assertEqual(['sub'], [term.name for term in get_queryset('fun')])

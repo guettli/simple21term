@@ -1,3 +1,4 @@
+from django.db.models import Q
 from django.http import HttpResponse
 from django.template import loader
 
@@ -24,7 +25,7 @@ def get_query_from_request(request):
     return request.GET.get('q', '')
 
 def get_queryset(query):
-    return Term.objects.filter(name__icontains=query)
+    return Term.objects.filter(Q(name__icontains=query)|Q(text__icontains=query)).distinct()
 
 def term(request, id):
     template = loader.get_template('xyz/term.html')

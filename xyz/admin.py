@@ -15,6 +15,7 @@ class TermAdmin(MPTTModelAdmin):
             "/static/xyz/quill-textarea.js",
             "/static/xyz/load_quill.js",
               )
+    list_display = ['__str__', 'type']
 
 admin.site.register(Term, TermAdmin)
 admin.site.register(Type)
