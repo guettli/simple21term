@@ -49,7 +49,7 @@ Different kind of feedback loops, or "same content, differnt names"?
 ## Installation
 * Open your favorite IDE. For example PyCharm (Community Edition is perfectly adequate)
 * Create new (empty) project: [Create a Python project](https://www.jetbrains.com/help/pycharm/creating-empty-project.html). Name it "zero21project". Leave the other values unchanged.
-* VCS / Get from Version Control. URL: https://github.com/guettli/zero21tree.git then "clone", then "Open in this window".
+* VCS / Get from Version Control. URL: https://github.com/guettli/zero21tree.git then "clone", then "Would you like to open it?" choose "yes. Then "..." choose "Open in this window".
 * Open "manage.py". A yellow warning is at the top "No Python interpreter is configured for the project". Choose "Configure Python Interpreter". Choose "add", then "New Environment".
 * Wait some seconds. PyCharm is indexing.
 * A yellow warning should be at the top of manage.py: "Package requirement is missing: Django>=....". Install it. Wait.
