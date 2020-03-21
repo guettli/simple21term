@@ -47,7 +47,7 @@ Different kind of feedback loops, or "same content, differnt names"?
 * https://en.wikipedia.org/wiki/Feedback
 
 ## Installation
-* Install your favorite IDE. For example PyCharm (Community Edition is enough)
+* Open your favorite IDE. For example PyCharm (Community Edition is enough)
 * Create new (empty) project: [Create a Python project](https://www.jetbrains.com/help/pycharm/creating-empty-project.html). Name it "zero21project". Leave the other values unchanged.
 * VCS / Get from Version Control. URL: https://github.com/guettli/zero21tree.git then "clone", then "Open in this window".
 * Open "manage.py". A yellow warning is at the top "No Python interpreter is configured for the project". Choose "Configure Python Interpreter". Choose "add", then "New Environment".
