@@ -1,6 +1,6 @@
 .idea
 venv
-xyz.egg-info
+*.egg-info
 *.sqlite3
 
 !.idea
