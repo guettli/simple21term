@@ -16,4 +16,8 @@ Today there is only one git repo, but in the future there could be several.
 
 I would like to have this directory layout: zero21env/src/zero21tree.
 
+Goal2: If I search with ctrl-shift-f I just want to search in my code, not in the
+code of the libraries (like django). If I search for "index.html" I just want
+to find my lines containing this.
+
 
