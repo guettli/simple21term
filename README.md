@@ -48,11 +48,12 @@ Different kind of feedback loops, or "same content, differnt names"?
 
 ## Installation
 * Open your favorite IDE. For example PyCharm (Community Edition is perfectly adequate)
-* Create new (empty) project: [Create a Python project](https://www.jetbrains.com/help/pycharm/creating-empty-project.html). Name it "zero21project". Leave the other values unchanged.
-* VCS / Get from Version Control. URL: https://github.com/guettli/zero21tree.git then "clone", then "Would you like to open it?" choose "yes. Then "..." choose "Open in this window".
-* Open "manage.py". A yellow warning is at the top "No Python interpreter is configured for the project". Choose "Configure Python Interpreter". Choose "add", then "New Environment".
+* Create new (empty) project: [Create a Python project](https://www.jetbrains.com/help/pycharm/creating-empty-project.html). Name it "zero21venv". Leave the other values unchanged.
+* In the terminal of the IDE: `pip install -e git+https://github.com/guettli/zero21tree.git#egg=zero21tree`
+* File / Open `PyCharmProjects/zero21venv/venv/src`. "... How would you like to open the project?" choose "This Window".
+* Open "manage.py" (for example via shift-shift). A yellow warning is at the top "No Python interpreter is configured for the project". Choose "Configure Python Interpreter". Choose "add", then "Existing Environment". Choose `PyCharmProjects/zero21venv/venv/bin/python`.
 * Wait some seconds. PyCharm is indexing.
-* A yellow warning should be at the top of manage.py: "Package requirement is missing: Django>=....". Install it. Wait.
+* In terminal: `cp zero21tree/manage.py .`
 
 Congratulations, now you have the needed source code installed.
 
@@ -61,7 +62,7 @@ Congratulations, now you have the needed source code installed.
 * Create superuser: In terminal `python manage.py createsuperuser`
 * Run tests: In terminal `python manage.py test zero21` (if there is something wrong, please create an [issue](https://github.com/guettli/zero21tree/issues))
 * Run development server: In terminal `python manage.py runserver` (or in PyCharm "Run/runserver"). *Starting development server at http://127.0.0.1:8000/* should be visible
-* Open the URL of the development server in your browser. You should see "TODO"
+* Open the URL of the development server in your browser. You should see the startpage of Zero21: A simple search input field (like google).
  
 ## Development Guidelines
 
