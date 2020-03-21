@@ -1,10 +1,11 @@
-# Who or what is xyz?
+# Zero21Tree: A tree of #Hashtags to increase obviousness
 
-A Who-or-what-is-xyz is a simple way to a [Single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth)
+
+A Zero21Tree is a simple way to a [Single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth)
  in your project, company or startup. Even, if information is scattered
  in several insular [Information silos](https://en.wikipedia.org/wiki/Information_silo).
 
-Who-or-what-is-xyz helps you to define:
+Zero21Tree helps you to define:
 
 * terminology
 * roles
@@ -47,8 +48,8 @@ Different kind of feedback loops, or "same content, differnt names"?
 
 ## Installation
 * Install your favorite IDE. For example PyCharm (Community Edition is enough)
-* Create new (empty) project: [Create a Python project](https://www.jetbrains.com/help/pycharm/creating-empty-project.html). Name it "who-or-what". Leave the other values unchanged.
-* VCS / Get from Version Control. URL: https://github.com/guettli/who-or-what-is-xyz.git then "clone", then "Open in this window".
+* Create new (empty) project: [Create a Python project](https://www.jetbrains.com/help/pycharm/creating-empty-project.html). Name it "zero21project". Leave the other values unchanged.
+* VCS / Get from Version Control. URL: https://github.com/guettli/zero21tree.git then "clone", then "Open in this window".
 * Open "manage.py". A yellow warning is at the top "No Python interpreter is configured for the project". Choose "Configure Python Interpreter". Choose "add", then "New Environment".
 * Wait some seconds. PyCharm is indexing.
 * A yellow warning should be at the top of manage.py: "Package requirement is missing: Django>=....". Install it. Wait.
@@ -58,7 +59,7 @@ Congratulations, now you have the needed source code installed.
 
 * Create database tables: In terminal `python manage.py migrate` (or in PyCharm "Run/migrate")
 * Create superuser: In terminal `python manage.py createsuperuser`
-* Run tests: In terminal `python manage.py test xyz` (if there is something wrong, please create an [issue](https://github.com/guettli/who-or-what-is-xyz/issues))
+* Run tests: In terminal `python manage.py test zero21` (if there is something wrong, please create an [issue](https://github.com/guettli/zero21tree/issues))
 * Run development server: In terminal `python manage.py runserver` (or in PyCharm "Run/runserver"). *Starting development server at http://127.0.0.1:8000/* should be visible
 * Open the URL of the development server in your browser. You should see "TODO"
  
