@@ -2,6 +2,21 @@
 
 # 2020
 
+## 2020-03-29
+
+Renamed it to Simple21Tree. Updated "Installation" part in README.
+
+Use a package to improve the GUI? I had a look at: https://djangopackages.org/grids/g/admin-styling/
+and https://djangopackages.org/grids/g/admin-interface/.
+Way too many options. Most of them are outdated.
+
+Had a look at [Saleor](https://github.com/mirumee/saleor) but this is way too
+big for my small project.
+
+Next: pip install mammoth; then import the office docs for the iso9001
+certification of a friend.
+
+
 ## 2020-03-21
 
 PyCharm is driving me crazy. I try to find a very very simple and newbee friendly
