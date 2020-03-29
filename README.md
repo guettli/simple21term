@@ -66,10 +66,10 @@ ls src
 Congratulations, now you have the needed source code installed.
 
 
-* Create database tables: In terminal `python manage.py migrate` (or in PyCharm "Run/migrate")
-* Create superuser: In terminal `python manage.py createsuperuser`
-* Run tests: In terminal `python manage.py test simple21` (if there is something wrong, please create an [issue](https://github.com/guettli/simple21tree/issues))
-* Run development server: In terminal `python manage.py runserver` (or in PyCharm "Run/runserver"). *Starting development server at http://127.0.0.1:8000/* should be visible
+* Create database tables: `python manage.py migrate` (or in PyCharm "Run/migrate")
+* Create superuser: `python manage.py createsuperuser`
+* Run tests: `python manage.py test simple21` (if there is something wrong, please create an [issue](https://github.com/guettli/simple21tree/issues))
+* Run development server: `python manage.py runserver` (or in PyCharm "Run/runserver"). *Starting development server at http://127.0.0.1:8000/* should be visible
 * Open the URL of the development server in your browser. You should see the startpage of Simple21: A simple search input field (like google).
  
 ## Development Guidelines
