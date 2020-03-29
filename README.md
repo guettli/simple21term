@@ -45,6 +45,7 @@ Different kind of feedback loops, or "same content, differnt names"?
 * https://en.wikipedia.org/wiki/Program_lifecycle_phase
 * https://en.wikipedia.org/wiki/PDCA
 * https://en.wikipedia.org/wiki/Feedback
+* [Book "7 habits" learn, commit, do.](https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People#Continual_improvement)
 
 ## Installation
 * Open your favorite IDE. For example PyCharm (Community Edition is perfectly adequate)
