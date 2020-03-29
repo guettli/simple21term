@@ -12,8 +12,8 @@ class TermAdmin(MPTTModelAdmin):
         }
         js = (
             "//cdn.quilljs.com/1.3.6/quill.min.js",
-            "/static/simpe21/quill-textarea.js",
-            "/static/simpe21/load_quill.js",
+            "/static/simple21/quill-textarea.js",
+            "/static/simple21/load_quill.js",
               )
     list_display = ['__str__', 'type']
 

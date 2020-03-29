@@ -49,19 +49,19 @@ Different kind of feedback loops, or "same content, differnt names"?
 
 ## Installation
 * Open your favorite IDE. For example PyCharm (Community Edition is perfectly adequate)
-* Create new (empty) project: [Create a Python project](https://www.jetbrains.com/help/pycharm/creating-empty-project.html). Name it "simpe21venv". Leave the other values unchanged.
-* In the terminal of the IDE: `pip install -e git+https://github.com/guettli/simpe21tree.git#egg=simpe21tree`
-* File / Open `PyCharmProjects/simpe21venv/venv/src`. "... How would you like to open the project?" choose "This Window".
-* Open "manage.py" (for example via shift-shift). A yellow warning is at the top "No Python interpreter is configured for the project". Choose "Configure Python Interpreter". Choose "add", then "Existing Environment". Choose `PyCharmProjects/simpe21venv/venv/bin/python`.
+* Create new (empty) project: [Create a Python project](https://www.jetbrains.com/help/pycharm/creating-empty-project.html). Name it "simple21venv". Leave the other values unchanged.
+* In the terminal of the IDE: `pip install -e git+https://github.com/guettli/simple21tree.git#egg=simple21tree`
+* File / Open `PyCharmProjects/simple21venv/venv/src`. "... How would you like to open the project?" choose "This Window".
+* Open "manage.py" (for example via shift-shift). A yellow warning is at the top "No Python interpreter is configured for the project". Choose "Configure Python Interpreter". Choose "add", then "Existing Environment". Choose `PyCharmProjects/simple21venv/venv/bin/python`.
 * Wait some seconds. PyCharm is indexing.
-* In terminal: `cp simpe21tree/manage.py .`
+* In terminal: `cp simple21tree/manage.py .`
 
 Congratulations, now you have the needed source code installed.
 
 
 * Create database tables: In terminal `python manage.py migrate` (or in PyCharm "Run/migrate")
 * Create superuser: In terminal `python manage.py createsuperuser`
-* Run tests: In terminal `python manage.py test simpe21` (if there is something wrong, please create an [issue](https://github.com/guettli/simpe21tree/issues))
+* Run tests: In terminal `python manage.py test simple21` (if there is something wrong, please create an [issue](https://github.com/guettli/simple21tree/issues))
 * Run development server: In terminal `python manage.py runserver` (or in PyCharm "Run/runserver"). *Starting development server at http://127.0.0.1:8000/* should be visible
 * Open the URL of the development server in your browser. You should see the startpage of Simple21: A simple search input field (like google).
  

@@ -25,7 +25,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'mptt',
     'sitetree',
-    'simpe21',
+    'simple21',
 ]
 
 MIDDLEWARE = [

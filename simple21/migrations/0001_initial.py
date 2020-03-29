@@ -31,8 +31,8 @@ class Migration(migrations.Migration):
                 ('rght', models.PositiveIntegerField(editable=False)),
                 ('tree_id', models.PositiveIntegerField(db_index=True, editable=False)),
                 ('level', models.PositiveIntegerField(editable=False)),
-                ('parent', mptt.fields.TreeForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='children', to='simpe21.Term')),
-                ('type', models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='simpe21.Type')),
+                ('parent', mptt.fields.TreeForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='children', to='simple21.Term')),
+                ('type', models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='simple21.Type')),
             ],
             options={
                 'abstract': False,
