@@ -48,11 +48,18 @@ Different kind of feedback loops, or "same content, differnt names"?
 * [Book "7 habits" learn, commit, do.](https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People#Continual_improvement)
 
 ## Installation
+```
+python3 -m venv simple21env
+cd simple21env
+. bin/activate
+pip install -e git+https://github.com/guettli/simple21tree.git#egg=simple21tree
+ls src
+ --> src/simple21tree contains the source code
+ ```
+ 
 * Open your favorite IDE. For example PyCharm (Community Edition is perfectly adequate)
-* Create new (empty) project: [Create a Python project](https://www.jetbrains.com/help/pycharm/creating-empty-project.html). Name it "simple21venv". Leave the other values unchanged.
-* In the terminal of the IDE: `pip install -e git+https://github.com/guettli/simple21tree.git#egg=simple21tree`
-* File / Open `PyCharmProjects/simple21venv/venv/src`. "... How would you like to open the project?" choose "This Window".
-* Open "manage.py" (for example via shift-shift). A yellow warning is at the top "No Python interpreter is configured for the project". Choose "Configure Python Interpreter". Choose "add", then "Existing Environment". Choose `PyCharmProjects/simple21venv/venv/bin/python`.
+* Open `simple21env/env/src`. "... How would you like to open the project?" choose "This Window".
+* Open "manage.py" (for example via shift-shift). A yellow warning is at the top "No Python interpreter is configured for the project". Choose "Configure Python Interpreter". Choose "add", then "Existing Environment". Choose `simple21env/bin/python`.
 * Wait some seconds. PyCharm is indexing.
 * In terminal: `cp simple21tree/manage.py .`
 
