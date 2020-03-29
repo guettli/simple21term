@@ -16,6 +16,10 @@ big for my small project.
 Next: pip install mammoth; then import the office docs for the iso9001
 certification of a friend.
 
+If everything is in one tree ... is the django admin a part of this tree?
+This would make sense. Then some initial data is needed, so that
+the tree contains a root node and the django-admin node.
+
 
 ## 2020-03-21
 
