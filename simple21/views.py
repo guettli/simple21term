@@ -2,11 +2,11 @@ from django.db.models import Q
 from django.http import HttpResponse
 from django.template import loader
 
-from zero21.models import Term, SearchLog, GlobalConfig
+from simpe21.models import Term, SearchLog, GlobalConfig
 
 
 def index(request):
-    template = loader.get_template('zero21/index.html')
+    template = loader.get_template('simpe21/index.html')
     query = get_query_from_request(request)
     queryset = get_queryset(query)
     create_search_log(request, query, queryset)
@@ -28,6 +28,6 @@ def get_queryset(query):
     return Term.objects.filter(Q(name__icontains=query)|Q(text__icontains=query)).distinct()
 
 def term(request, id):
-    template = loader.get_template('zero21/term.html')
+    template = loader.get_template('simpe21/term.html')
     term = Term.objects.get(id=id)
     return HttpResponse(template.render(dict(term=term), request))

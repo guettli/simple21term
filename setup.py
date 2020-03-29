@@ -2,13 +2,13 @@
 
 from distutils.core import setup
 
-setup(name='zero21',
+setup(name='simpe21',
       version='1.0',
-      description='Zero21Tree: A tree of #Hashtags to increase obviousness',
+      description='Simple21Tree: A tree of #Hashtags to increase obviousness',
       author='Thomas Güttler',
-      author_email='guettli.zero21@thomas-guettler.de',
-      url='https://github.com/guettli/zero21tree/',
-      packages=['zero21'],
+      author_email='guettli.simpe21@thomas-guettler.de',
+      url='https://github.com/guettli/simpe21tree/',
+      packages=['simpe21'],
       install_requires=[
             'Django>=3.0.3',
             'django-mptt>=0.11.0',

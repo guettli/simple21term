@@ -1,11 +1,11 @@
-# Zero21Tree: A tree of #Hashtags to increase obviousness
+# Simple21Tree: A tree of #Hashtags to increase obviousness
 
 
-A Zero21Tree is a simple way to a [Single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth)
+A Simple21Tree is a simple way to a [Single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth)
  in your project, company or startup. Even, if information is scattered
  in several insular [Information silos](https://en.wikipedia.org/wiki/Information_silo).
 
-Zero21Tree helps you to define:
+Simple21Tree helps you to define:
 
 * terminology
 * roles
@@ -48,21 +48,21 @@ Different kind of feedback loops, or "same content, differnt names"?
 
 ## Installation
 * Open your favorite IDE. For example PyCharm (Community Edition is perfectly adequate)
-* Create new (empty) project: [Create a Python project](https://www.jetbrains.com/help/pycharm/creating-empty-project.html). Name it "zero21venv". Leave the other values unchanged.
-* In the terminal of the IDE: `pip install -e git+https://github.com/guettli/zero21tree.git#egg=zero21tree`
-* File / Open `PyCharmProjects/zero21venv/venv/src`. "... How would you like to open the project?" choose "This Window".
-* Open "manage.py" (for example via shift-shift). A yellow warning is at the top "No Python interpreter is configured for the project". Choose "Configure Python Interpreter". Choose "add", then "Existing Environment". Choose `PyCharmProjects/zero21venv/venv/bin/python`.
+* Create new (empty) project: [Create a Python project](https://www.jetbrains.com/help/pycharm/creating-empty-project.html). Name it "simpe21venv". Leave the other values unchanged.
+* In the terminal of the IDE: `pip install -e git+https://github.com/guettli/simpe21tree.git#egg=simpe21tree`
+* File / Open `PyCharmProjects/simpe21venv/venv/src`. "... How would you like to open the project?" choose "This Window".
+* Open "manage.py" (for example via shift-shift). A yellow warning is at the top "No Python interpreter is configured for the project". Choose "Configure Python Interpreter". Choose "add", then "Existing Environment". Choose `PyCharmProjects/simpe21venv/venv/bin/python`.
 * Wait some seconds. PyCharm is indexing.
-* In terminal: `cp zero21tree/manage.py .`
+* In terminal: `cp simpe21tree/manage.py .`
 
 Congratulations, now you have the needed source code installed.
 
 
 * Create database tables: In terminal `python manage.py migrate` (or in PyCharm "Run/migrate")
 * Create superuser: In terminal `python manage.py createsuperuser`
-* Run tests: In terminal `python manage.py test zero21` (if there is something wrong, please create an [issue](https://github.com/guettli/zero21tree/issues))
+* Run tests: In terminal `python manage.py test simpe21` (if there is something wrong, please create an [issue](https://github.com/guettli/simpe21tree/issues))
 * Run development server: In terminal `python manage.py runserver` (or in PyCharm "Run/runserver"). *Starting development server at http://127.0.0.1:8000/* should be visible
-* Open the URL of the development server in your browser. You should see the startpage of Zero21: A simple search input field (like google).
+* Open the URL of the development server in your browser. You should see the startpage of Simple21: A simple search input field (like google).
  
 ## Development Guidelines
 
