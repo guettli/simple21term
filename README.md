@@ -58,7 +58,7 @@ ls src
  ```
  
 * Open your favorite IDE. For example PyCharm (Community Edition is perfectly adequate)
-* Open `simple21env/src`. "... How would you like to open the project?" choose "This Window".
+* Open `simple21env/src` "... How would you like to open the project?" choose "This Window".
 * Open "manage.py" (for example via shift-shift). A yellow warning is at the top "No Python interpreter is configured for the project". Choose "Configure Python Interpreter". Choose "add", then "Existing Environment". Choose `simple21env/bin/python`.
 * Wait some seconds. PyCharm is indexing.
 * In terminal: `cp simple21tree/manage.py .`
