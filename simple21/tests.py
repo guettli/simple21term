@@ -1,4 +1,7 @@
 # Create your tests here.
+import django
+django.setup()
+
 from django.test import TestCase
 from django.urls import reverse
 from django.utils import timezone
