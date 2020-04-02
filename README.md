@@ -74,8 +74,9 @@ Congratulations, now you have the needed source code installed.
  
 ## Development Guidelines
 
-[Thomas's Guidelines](https://github.com/guettli/programming-guidelines)
-
+* [My general Guidelines](https://github.com/guettli/programming-guidelines)
+* [Calling Tests for re-usable Django app from PyCharm](https://stackoverflow.com/a/60917686/633961)
+ 
 ## Theory
 [Theory](THEORY.md)
 
