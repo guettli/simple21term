@@ -2,6 +2,21 @@
 
 # 2020
 
+## 2020-04-02
+
+Header should contain a search for the tree. With nice autocomplete. How to get the Django
+Admin into this tree?
+
+Should there be an tree entry for every group and for every user?
+
+Do I want sqlite support? It might be easier to support postgres only.
+
+Do I need django-mptt? Or ForeignKey to self enough?
+
+Removed sitetree again. One tree is enough (Model Term).
+
+Next: term.url (Admin of Term) aktivieren.
+
 ## 2020-03-29
 
 Renamed it to Simple21Tree. Updated "Installation" part in README.

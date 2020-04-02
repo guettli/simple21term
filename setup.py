@@ -12,6 +12,5 @@ setup(name='simple21',
       install_requires=[
             'Django>=3.0.3',
             'django-mptt>=0.11.0',
-            'django-sitetree',
       ],
       )

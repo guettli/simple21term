@@ -1,15 +1,9 @@
-{% load sitetree %}
 <title>{% block title %}{% endblock %}</title>
 <br><br><br>
-<form style="text-align: center; width: 100%; vertical-align: middle; height: 100%" action="/">
+<form style="text-align: center; width: 100%; vertical-align: middle;" action="/">
     <a href="https://github.com/guettli/simple21tree" title="A tree of #Hashtags to increase obviousness.">Simple21Tree</a>
     <br>
     <input type="text" name="q">
   <input type="submit">
 </form>
-
-{% sitetree_menu from "maintree" include "trunk" %}
-{% sitetree_breadcrumbs from "maintree" %}
-
-
 {% block content %}{% endblock %}

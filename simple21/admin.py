@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.contrib.admin import ModelAdmin
 from mptt.admin import MPTTModelAdmin
 
-from .models import Term, Type, SearchLog
+from .models import Term, SearchLog
 
 
 class TermAdmin(MPTTModelAdmin):
@@ -15,10 +15,9 @@ class TermAdmin(MPTTModelAdmin):
             "/static/simple21/quill-textarea.js",
             "/static/simple21/load_quill.js",
               )
-    list_display = ['__str__', 'type']
+    list_display = ['__str__']
 
 admin.site.register(Term, TermAdmin)
-admin.site.register(Type)
 
 class SearchLogAdmin(ModelAdmin):
     list_display = ['query', 'user', 'datetime', 'result_count']

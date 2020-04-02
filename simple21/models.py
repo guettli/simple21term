@@ -3,18 +3,16 @@ from django.db import models
 from django.urls import reverse
 from mptt.models import MPTTModel, TreeForeignKey
 
-
-class Type(models.Model):
-    name = models.CharField(max_length=120, unique=True)
-    text = models.TextField(default='', blank=True)
-    def __str__(self):
-        return self.name
-
 class Term(MPTTModel):
     name = models.CharField(max_length=120, unique=True)
     parent = TreeForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='children')
-    type = models.ForeignKey(Type, on_delete=models.PROTECT)
+    slug = models.SlugField(null=True, db_index=True)
     text = models.TextField(default='', blank=True)
+    url = models.CharField(default='', blank=True, max_length=10000)
+
+    ROOT_SLUG = 'root'
+    DJANGO_ADMIN_SLUG = 'django_admin'
+    DJANGO_ADMIN_TERM_SLUG = 'django_admin_term'
 
     def __str__(self):
         return ' / '.join([term.name for term in self.get_ancestors(include_self=True)])
