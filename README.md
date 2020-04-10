@@ -35,6 +35,9 @@ pre-alpha (unusable)
 * https://google.github.io/styleguide/
 * https://en.wikipedia.org/wiki/Advanced_product_quality_planning
 
+## Similar projects
+* https://www.graphitedocs.com/
+* https://www.xwiki.org/ (Java, established since 2003)
 
 
 ## Installation
