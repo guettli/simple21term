@@ -39,6 +39,7 @@ pre-alpha (unusable)
 * https://www.graphitedocs.com/
 * https://www.xwiki.org/ (Java, established since 2003)
 * https://djangopackages.org/grids/g/wikis/ (But all use a markup language, not HTML and a WYSIWYG editor)
+* https://djangopackages.org/grids/g/cms/ They support WYSIWYG, but do they feel lightweight and simple?
 
 ## Installation
 ```
