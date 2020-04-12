@@ -1,12 +1,13 @@
 from django.contrib.auth.models import User
 from django.db import models
+from django.db.models import CheckConstraint, Q
 from django.urls import reverse
 from mptt.models import MPTTModel, TreeForeignKey
 
 class Term(MPTTModel):
     name = models.CharField(max_length=120, unique=True)
     parent = TreeForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='children')
-    slug = models.SlugField(null=True, db_index=True)
+    slug = models.SlugField(null=True, blank=True, db_index=True)
     text = models.TextField(default='', blank=True)
     url = models.CharField(default='', blank=True, max_length=10000)
 
@@ -15,11 +16,18 @@ class Term(MPTTModel):
     DJANGO_ADMIN_TERM_SLUG = 'django_admin_term'
 
     def __str__(self):
-        return ' / '.join([term.name for term in self.get_ancestors(include_self=True)])
+        if self.slug == self.ROOT_SLUG:
+            return self.slug
+        return ' / '.join([term.name for term in self.get_ancestors(include_self=True) if term.name])
 
     def get_absolute_url(self):
         return reverse('term', kwargs=dict(id=self.id))
 
+    class Meta:
+        constraints = [
+            CheckConstraint(name='parent_must_exist__or__is_root',
+                            check=Q(parent__isnull=False)|Q(slug='root'))
+        ]
     class MPTTMeta:
         order_insertion_by = ['name']
 

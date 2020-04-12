@@ -2,7 +2,7 @@
 
 {% block content %}
 {% for term in queryset %}
-  <dt><a href="{{term.get_absolute_url}}">{{term.name}}</a></dt>
+  <dt><a href="{{term.get_absolute_url}}">{{term}}</a></dt>
   <dd>{{term.text | safe}}</dd>
   <br>
 {% endfor %}

@@ -18,29 +18,38 @@ from .views import get_queryset
 class TermTests(TestCase):
 
     @cached_property
-    def term(self):
-        return Term.objects.update_or_create(name="foo", defaults=dict(text="bar"))[0]
+    def root(self):
+        return Term.objects.update_or_create(name='', defaults=dict(text="Root Term", slug=Term.ROOT_SLUG))[0]
 
     @cached_property
-    def sub_term(self):
-        return Term.objects.update_or_create(name="sub", defaults=dict(
-            parent=self.term,
-            text="sub-bar funny"))[0]
+    def term(self):
+        return Term.objects.update_or_create(name="myterm", defaults=dict(
+            parent=self.root,
+            text="myterm funny"))[0]
 
     def test_term__get_absolute_url(self):
         self.assertEqual('/terms/{}/'.format(self.term.id), self.term.get_absolute_url())
 
-    def test_str_of_sub_term(self):
-        self.assertEqual('foo / sub', str(self.sub_term))
+    def test_str_of_term(self):
+        self.assertEqual('myterm', str(self.term))
 
     def test_term_view(self):
-        c = Client()
-        response = c.get(self.term.get_absolute_url())
-        self.assertContains(response, '<dd>bar</dd>')
+        self.assertEqual('/terms/{}/'.format(self.term.id), self.term.get_absolute_url())
+        response = Client().get(self.term.get_absolute_url())
+        self.assertContains(response, '<dd>myterm funny</dd>')
 
-        response = c.get(reverse(views.index), dict(q='foo'))
-        self.assertContains(response, '<dd>bar</dd>')
+        response = Client().get(reverse(views.index), dict(q='fun'))
+        self.assertContains(response, '<dd>myterm funny</dd>')
 
     def test_get_queryset(self):
-        self.assertTrue('sub-bar funny', self.sub_term)
-        self.assertEqual(['sub'], [term.name for term in get_queryset('fun')])
+        self.assertEqual('myterm', str(self.term))
+        self.assertEqual(['myterm'], [term.name for term in get_queryset('fun')])
+
+    def test_root__str(self):
+        self.assertEqual('root', str(self.root))
+
+    def test_term_with_url_redirects_to_url(self):
+        term = Term.objects.create(parent=self.root, url='/123', name=self.id())
+        response = Client().get(term.get_absolute_url())
+        self.assertEqual(302, response.status_code)
+        self.assertEqual('/123', response['location'])

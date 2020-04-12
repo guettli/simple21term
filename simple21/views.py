@@ -1,5 +1,5 @@
 from django.db.models import Q
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.template import loader
 
 from simple21.models import Term, SearchLog, GlobalConfig
@@ -30,4 +30,6 @@ def get_queryset(query):
 def term(request, id):
     template = loader.get_template('simple21/term.html')
     term = Term.objects.get(id=id)
+    if term.url:
+        return HttpResponseRedirect(term.url)
     return HttpResponse(template.render(dict(term=term), request))
