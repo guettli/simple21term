@@ -2,6 +2,14 @@
 
 # 2020
 
+## 2020-04-12
+
+Next: 
+
+- Same UX for Admin and normal GUI. 
+- Datamigration: Create root and Django-Admin and Django-Admin of Terms.
+- Import data of iso9001 cert of Michael.
+
 ## 2020-04-02
 
 Header should contain a search for the tree. With nice autocomplete. How to get the Django
@@ -15,7 +23,7 @@ Do I need django-mptt? Or ForeignKey to self enough?
 
 Removed sitetree again. One tree is enough (Model Term).
 
-Next: term.url (Admin of Term) aktivieren.
+Next: term.url (Admin of Term) should redirect to this URL
 
 ## 2020-03-29
 
