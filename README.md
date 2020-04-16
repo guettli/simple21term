@@ -19,7 +19,7 @@ brainstorming
 
 ## Goal
 
-[Goal]
+[Goal](Goal.md)
 
 ## Next
 * Same header (Django Admin and Search/Result)
@@ -72,8 +72,5 @@ Congratulations, now you have the needed source code installed.
 
 * [My general Guidelines](https://github.com/guettli/programming-guidelines)
  
-## Theory
-[Theory](THEORY.md)
-
 ## Later
 [Not now, later](LATER.md)
