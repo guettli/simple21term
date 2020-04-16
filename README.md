@@ -1,9 +1,8 @@
 # Simple21Tree: A tree of #Hashtags to increase obviousness
 
 
-A Simple21Tree is a simple way to a [Single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth)
- in your project, company or startup. Even, if information is scattered
- in several insular [Information silos](https://en.wikipedia.org/wiki/Information_silo).
+Simple21Tree is a simple way to a [Single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth)
+ in your project, company or startup.
 
 Simple21Tree helps you to define:
 
@@ -14,10 +13,10 @@ Simple21Tree helps you to define:
 * resources
 * ...
 
-Open Source since 2020.
-
 ## State
-pre-alpha (unusable)
+
+brainstorming
+
 
 ## Next
 * Same header (Django Admin and Search/Result)
