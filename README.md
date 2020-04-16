@@ -17,6 +17,9 @@ Simple21Tree helps you to define:
 
 brainstorming
 
+## Goal
+
+[Goal]
 
 ## Next
 * Same header (Django Admin and Search/Result)
