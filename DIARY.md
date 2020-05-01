@@ -9,6 +9,7 @@ Next:
 - Same UX for Admin and normal GUI. 
   - https://getbootstrap.com/docs/4.0/components/navbar/
   - Same tree as for content :-)
+  - https://getbootstrap.com/docs/4.0/components/breadcrumb/
 - Datamigration: Create root and Django-Admin and Django-Admin of Terms.
 - Import data of iso9001 cert of Michael.
 
