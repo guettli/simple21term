@@ -10,6 +10,7 @@ Next:
   - https://getbootstrap.com/docs/4.0/components/navbar/
   - Same tree as for content :-)
   - https://getbootstrap.com/docs/4.0/components/breadcrumb/
+  - whole tree in one http request (MVP)
 - Datamigration: Create root and Django-Admin and Django-Admin of Terms.
 - Import data of iso9001 cert of Michael.
 
