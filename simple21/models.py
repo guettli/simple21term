@@ -20,6 +20,10 @@ class Term(MPTTModel):
             return self.slug
         return ' / '.join([term.name for term in self.get_ancestors(include_self=True) if term.name])
 
+    @classmethod
+    def get_root(cls):
+        return cls.objects.get(slug=cls.ROOT_SLUG)
+
     def get_absolute_url(self):
         return reverse('term', kwargs=dict(id=self.id))
 

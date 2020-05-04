@@ -22,6 +22,7 @@ brainstorming
 [Goal](Goal.md)
 
 ## Next
+* Test DB not truncated for every test? I see manually added rows in the tests. Strange.
 * Same header (Django Admin and Search/Result)
 * Feedback-Button
 * Umbrella term for: People, processes, tools

@@ -1,15 +1,22 @@
 {% load static %}
+{% load simple21 %}
 <script type="text/javascript" src="{% static "admin/js/vendor/jquery/jquery.js" %}"></script>
+
 <link rel="stylesheet" href="{% static "simple21/css/bootstrap.min.css" %}">
 <script src="{% static "simple21/js/bootstrap.bundle.min.js" %}"></script>
 <link rel="icon" href="{% static 'simple21/s21.svg' %}" type="image/svg+xml" />
 
 <title>{% block title %}{% endblock %}</title>
-<br><br><br>
-<form style="text-align: center; width: 100%; vertical-align: middle;" action="/">
-    <a href="https://github.com/guettli/simple21tree" title="A tree of #Hashtags to increase obviousness.">Simple21Tree</a>
-    <br>
-    <input type="text" name="q">
-  <input type="submit">
+<nav class="navbar navbar-expand-sm">
+<a class="navbar-brand" href="#">Start</a>
+{% navbar %}
+<span class="navbar-text">TITLE</span>
+
+<form class="form-inline" action="/">
+    <input name="q" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+    <button class="btn btn-success" type="submit">Search</button>
 </form>
+
+</nav>
+
 {% block content %}{% endblock %}
