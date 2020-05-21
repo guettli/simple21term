@@ -22,7 +22,10 @@ brainstorming
 [Goal](Goal.md)
 
 ## Next
-* Test DB not truncated for every test? I see manually added rows in the tests. Strange.
+* Show Super / SubSuper
+* Navigation in a huge menu tree? (or solve this later?)
+===> no, MVP, endless lazy menu is too much work now.
+
 * Same header (Django Admin and Search/Result)
 * Feedback-Button
 * Umbrella term for: People, processes, tools
