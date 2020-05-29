@@ -7,8 +7,14 @@
 <link rel="icon" href="{% static 'simple21/s21.svg' %}" type="image/svg+xml" />
 
 <title>{% block title %}{% endblock %}</title>
-<nav class="navbar navbar-expand-sm">
- <a class="navbar-brand" href="#">Start</a>
+<nav id="main-menu" aria-labelledby="main-menu-title">
+ <span id="main-menu-title" class="menu-title visually-hidden">Main</span>
+ <span class="branding" aria-hidden="true">Menubar</span>
+ <button href="" class="menu-toggle">☰<span class="visually-hidden"> Toggle Menu</span></button>
+ <ul class="menu">
+ </ul>
+
+
  {% navbar %}
  <span class="navbar-text">TITLE</span>
 

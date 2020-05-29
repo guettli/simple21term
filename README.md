@@ -26,6 +26,9 @@ brainstorming
 * Navigation in a huge menu tree? (or solve this later?)
 ===> no, MVP, endless lazy menu is too much work now.
 
+https://github.com/NickDJM/accessible-menu
+... BUT he does not want to provide CSS ... grrr
+
 * Same header (Django Admin and Search/Result)
 * Feedback-Button
 * Umbrella term for: People, processes, tools

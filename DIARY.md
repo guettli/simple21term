@@ -2,6 +2,24 @@
 
 # 2020
 
+## 2020-05-30
+
+How to render the menu?
+
+Looks simple and nice:
+https://jqueryui.com/menu/
+... but jquery is dead. Last update is four years old!
+
+## 2020-05-28
+
+Use React? It looks very wide spread.
+http://sotagtrends.com/?tags=antd+material-ui+material-design+twitter-bootstrap+bootstrap-4+jquery-ui+reactjs
+
+... But no, it does not make sense for my project.
+See: https://www.reddit.com/r/webdev/comments/atgke2/react_vs_vanilla_js_when_to_use_each_of_them/
+
+
+
 ## 2020-04-12
 
 Next: 
