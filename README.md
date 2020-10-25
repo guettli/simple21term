@@ -1,10 +1,10 @@
-# Simple21Tree: A tree of #Hashtags to increase obviousness
+# Simple21Term: #Hashtags to increase obviousness
 
 
-Simple21Tree is a simple way to a [Single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth)
+Simple21Term is a simple way to a [Single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth)
  in your project, company or startup.
 
-Simple21Tree helps you to define:
+Simple21Term helps you to define:
 
 * terminology
 * roles
@@ -23,7 +23,7 @@ brainstorming
 
 ## Next
 * Show Super / SubSuper
-* Navigation in a huge menu tree? (or solve this later?)
+* Navigation in a huge menu Tree?
 ===> no, MVP, endless lazy menu is too much work now.
 
 https://github.com/NickDJM/accessible-menu
@@ -55,23 +55,23 @@ https://github.com/NickDJM/accessible-menu
 python3 -m venv simple21env
 cd simple21env
 . bin/activate
-pip install -e git+https://github.com/guettli/simple21tree.git#egg=simple21tree
+pip install -e git+https://github.com/guettli/simple21Term.git#egg=simple21term
 ls src
- --> src/simple21tree contains the source code
+ --> src/simple21term contains the source code
  ```
  
 * Open your favorite IDE. For example PyCharm (Community Edition is perfectly adequate)
 * Open `simple21env/src` "... How would you like to open the project?" choose "This Window".
 * Open "manage.py" (for example via shift-shift). A yellow warning is at the top "No Python interpreter is configured for the project". Choose "Configure Python Interpreter". Choose "add", then "Existing Environment". Choose `simple21env/bin/python`.
 * Wait some seconds. PyCharm is indexing.
-* In terminal: `cp simple21tree/manage.py .`
+* In terminal: `cp simple21term/manage.py .`
 
 Congratulations, now you have the needed source code installed.
 
 
 * Create database tables: `python manage.py migrate` (or in PyCharm "Run/migrate")
 * Create superuser: `python manage.py createsuperuser`
-* Run tests: `python manage.py test simple21` (if there is something wrong, please create an [issue](https://github.com/guettli/simple21tree/issues))
+* Run tests: `python manage.py test simple21` (if there is something wrong, please create an [issue](https://github.com/guettli/simple21Term/issues))
 * Collect static files: `python manage.py collectstatic --link --clear`
 * Run development server: `python manage.py runserver` (or in PyCharm "Run/runserver"). *Starting development server at http://127.0.0.1:8000/* should be visible
 * Open the URL of the development server in your browser. You should see the startpage of Simple21: A simple search input field (like google).
