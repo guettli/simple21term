@@ -55,7 +55,7 @@ https://github.com/NickDJM/accessible-menu
 python3 -m venv simple21env
 cd simple21env
 . bin/activate
-pip install -e git+https://github.com/guettli/simple21Term.git#egg=simple21term
+pip install -e git+https://github.com/guettli/simple21term.git#egg=simple21term
 ls src
  --> src/simple21term contains the source code
  ```
@@ -71,7 +71,7 @@ Congratulations, now you have the needed source code installed.
 
 * Create database tables: `python manage.py migrate` (or in PyCharm "Run/migrate")
 * Create superuser: `python manage.py createsuperuser`
-* Run tests: `python manage.py test simple21` (if there is something wrong, please create an [issue](https://github.com/guettli/simple21Term/issues))
+* Run tests: `python manage.py test simple21` (if there is something wrong, please create an [issue](https://github.com/guettli/simple21term/issues))
 * Collect static files: `python manage.py collectstatic --link --clear`
 * Run development server: `python manage.py runserver` (or in PyCharm "Run/runserver"). *Starting development server at http://127.0.0.1:8000/* should be visible
 * Open the URL of the development server in your browser. You should see the startpage of Simple21: A simple search input field (like google).
