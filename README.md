@@ -49,6 +49,7 @@ https://github.com/NickDJM/accessible-menu
 * https://www.xwiki.org/ (Java, established since 2003)
 * https://djangopackages.org/grids/g/wikis/ (But all use a markup language, not HTML and a WYSIWYG editor)
 * https://djangopackages.org/grids/g/cms/ They support WYSIWYG, but do they feel lightweight and simple?
+* Confluence. It needs 600 http requests to load a page. That's crazy.
 
 ## Installation
 ```
