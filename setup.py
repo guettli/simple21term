@@ -10,7 +10,7 @@ setup(name='simple21',
       url='https://github.com/guettli/simple21tree/',
       packages=['simple21'],
       install_requires=[
-            'Django>=3.0.3',
-            'django-mptt>=0.11.0',
+            'Django>=3.1.4',
+            'python-dotenv',
       ],
       )

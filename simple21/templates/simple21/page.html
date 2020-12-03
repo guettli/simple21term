@@ -1,8 +1,8 @@
 {% extends "simple21/base.html" %}
 
-{% block title %}Term {{ term.name }}{% endblock %}
+{% block title %}Page {{ page.name }}{% endblock %}
 
 {% block content %}
-<dt>Term {{ term }}</dt>
+<dt>Page {{ page }}</dt>
 <dd>{{ term.text | safe }}</dd>
 {% endblock %}

@@ -1,24 +1,24 @@
 from django.utils.functional import cached_property
 
 from django.test import TestCase
-from simple21.models import Term
+from simple21.models import Page
 
 
-class AbstractTermTest(TestCase):
+class AbstractPageTest(TestCase):
 
     @classmethod
     def setUpTestData(cls):
-        Term.objects.all().delete()
+        Page.objects.all().delete()
         cls.root
 
 
     @cached_property
     def root(self):
-        return Term.objects.update_or_create(name='', defaults=dict(text="Root Term", slug=Term.ROOT_SLUG))[0]
+        return Page.objects.update_or_create(name='', defaults=dict(text='Root Page'))[0]
 
 
     @cached_property
-    def term(self):
-        return Term.objects.update_or_create(name="myterm", defaults=dict(
+    def page(self):
+        return Page.objects.update_or_create(name='myPage', defaults=dict(
             parent=self.root,
-            text="myterm funny"))[0]
+            text='My first fun sub-page'))[0]
