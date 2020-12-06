@@ -2,6 +2,33 @@
 
 # 2020
 
+## 2020-12-06
+
+Refactored central model to name "Page".
+
+I have now a picture how I want the menu to look like.
+
+Like the amazon menu. It easy to use and deep nesting works fine. It slides in from the left
+side and items are below each other. It is like a table with one column. If you go down one
+level, then the current table gets replaced by the new level. 
+
+Related: https://softwarerecs.stackexchange.com/questions/76930/menu-like-amazon
+
+I think I will implement this with bootstrap5 (which is still alpha).
+
+I looked at React and Vue, but I think htmx is easier.
+
+Did some research during the last weeks:
+
+* https://github.com/guettli/static-site-generators
+* https://github.com/guettli/gui4db
+* https://github.com/guettli/front-end-frameworks
+* https://github.com/guettli/html-over-the-wire
+* ... see https://github.com/guettli/wol
+
+
+
+
 ## 2020-05-30
 
 How to render the menu?
