@@ -5,7 +5,7 @@ from django.template import loader
 from simple21.models import Page, SearchLog, GlobalConfig
 
 
-def index(request):
+def search(request):
     template = loader.get_template('simple21/index.html')
     query = get_query_from_request(request)
     queryset = get_queryset(query)
@@ -17,7 +17,7 @@ def create_search_log(request, query, queryset):
         user = request.user
     else:
         user = GlobalConfig.get().anonymous_user
-    SearchLog.objects.create(query=query, user=user, result_count=queryset.count())
+    SearchLog.objects.create(query=query, user=user, result_count=queryset.count(), page_ids=list(queryset.values_list('id', flat=True)))
 
 def get_query_from_request(request):
     if not request.GET:

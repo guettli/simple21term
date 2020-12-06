@@ -12,5 +12,7 @@ setup(name='simple21',
       install_requires=[
             'Django>=3.1.4',
             'python-dotenv',
+            'html2text',
       ],
+      scripts=['manage.py'],
       )

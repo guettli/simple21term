@@ -5,7 +5,7 @@ from django.urls import reverse
 from django.contrib.postgres.fields import ArrayField
 
 class Page(models.Model):
-    parent = models.ForeignKey('Page', null=True, on_delete=models.RESTRICT)
+    parent = models.ForeignKey('Page', null=True, blank=True, on_delete=models.RESTRICT)
     name = models.CharField(max_length=120, unique=True)
     text = models.TextField(default='', blank=True)
 
