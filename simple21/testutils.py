@@ -8,7 +8,6 @@ class AbstractPageTest(TestCase):
 
     @classmethod
     def setUpTestData(cls):
-        Page.objects.all().delete()
         cls.root
 
 
