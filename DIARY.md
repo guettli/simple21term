@@ -1,6 +1,15 @@
+
 # Diary
 
 # 2020
+
+
+## 2020-12-08
+
+Found some nice examples to get started with bs5: https://getbootstrap.com/docs/5.0/examples/
+
+Fly-in from side like Amazon Menu would be nice. 
+See https://softwarerecs.stackexchange.com/questions/76930/menu-like-amazon
 
 ## 2020-12-06
 
