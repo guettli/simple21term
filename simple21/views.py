@@ -32,3 +32,7 @@ def page(request, id):
     template = loader.get_template('simple21/page.html')
     page = Page.objects.get(id=id)
     return HttpResponse(template.render(dict(page=page), request))
+
+def test_session_of_anonymouse_user(request):
+    request.session['get']=dict(data=request.GET, user=request.user.username, id=request.user.id)
+    return HttpResponse('ok')
