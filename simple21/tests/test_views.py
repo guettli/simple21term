@@ -34,6 +34,10 @@ class ViewTests(AbstractPageTest):
         self.assertEqual(['myPage'], [page.name for page in get_queryset('fun')])
 
     def test__test_session_of_anonymous_user(self):
+        """
+        Ensure that two anonymous user have different session data, although they
+        use the same user instance in the database.
+        """
         url = reverse(test_session_of_anonymous_user)
         user = GlobalConfig.get().anonymous_user
         client_one = Client()
