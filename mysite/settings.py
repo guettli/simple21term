@@ -39,6 +39,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'simple21.middleware.SetAnonymousUserMiddleware'
 ]
 
 ROOT_URLCONF = 'mysite.urls'
