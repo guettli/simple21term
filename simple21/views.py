@@ -33,6 +33,8 @@ def page(request, id):
     page = Page.objects.get(id=id)
     return HttpResponse(template.render(dict(page=page), request))
 
-def test_session_of_anonymouse_user(request):
-    request.session['get']=dict(data=request.GET, user=request.user.username, id=request.user.id)
+def test_session_of_anonymous_user(request):
+    my_list = request.session.get('get', [])
+    my_list.append(dict(data=request.GET, user=request.user.username, id=request.user.id))
+    request.session['get']=my_list
     return HttpResponse('ok')

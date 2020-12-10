@@ -13,7 +13,7 @@ from django.urls import reverse
 from simple21 import views
 from django.test import Client
 
-from simple21.views import get_queryset, test_session_of_anonymouse_user
+from simple21.views import get_queryset, test_session_of_anonymous_user
 
 
 class ViewTests(AbstractPageTest):
@@ -33,17 +33,25 @@ class ViewTests(AbstractPageTest):
         self.assertEqual('myPage', str(self.page))
         self.assertEqual(['myPage'], [page.name for page in get_queryset('fun')])
 
-    def test__test_session_of_anonymouse_user(self):
-        url = reverse(test_session_of_anonymouse_user)
+    def test__test_session_of_anonymous_user(self):
+        url = reverse(test_session_of_anonymous_user)
         user = GlobalConfig.get().anonymous_user
         client_one = Client()
         response = client_one.get(url, dict(me='client_one'))
         self.assertEqual(200, response.status_code)
-        self.assertEqual(dict(data=dict(me='client_one'), user=user.username, id=user.id), client_one.session['get'])
+        self.assertEqual([dict(data=dict(me='client_one'), user=user.username, id=user.id)], client_one.session['get'])
 
         client_two = Client()
         response = client_two.get(url, dict(me='client_two'))
         self.assertEqual(200, response.status_code)
-        self.assertEqual(dict(data=dict(me='client_two'), user=user.username, id=user.id), client_two.session['get'])
+        self.assertEqual([dict(data=dict(me='client_two'), user=user.username, id=user.id)], client_two.session['get'])
+
+        response = client_one.get(url, dict(me='client_one'))
+        self.assertEqual(200, response.status_code)
+        self.assertEqual([dict(data=dict(me='client_one'), user=user.username, id=user.id),
+                          dict(data=dict(me='client_one'), user=user.username, id=user.id),
+                          ], client_one.session['get'])
+
+
 
 
