@@ -1,11 +1,12 @@
 import os
+
 os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings'
 import django
+
 django.setup()
 
 import html2text
 from simple21.models import GlobalConfig
-
 
 from simple21.testutils import AbstractPageTest
 from django.urls import reverse
@@ -24,7 +25,6 @@ class ViewTests(AbstractPageTest):
         assert self.page.text in str(response.content)
 
     def test_search_view(self):
-        self.page
         response = Client().get(reverse(views.search), dict(q='fun'))
         text = html2text.html2text(str(response.content)).replace('\\n', ' ')
         assert 'fun sub-page' in text
@@ -55,7 +55,3 @@ class ViewTests(AbstractPageTest):
         self.assertEqual([dict(data=dict(me='client_one'), user=user.username, id=user.id),
                           dict(data=dict(me='client_one'), user=user.username, id=user.id),
                           ], client_one.session['get'])
-
-
-
-

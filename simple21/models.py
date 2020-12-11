@@ -27,6 +27,9 @@ class Page(models.Model):
             parent = parent.parent
         return ret
 
+    def get_children(self):
+        return Page.objects.filter(parent=self)
+
     @classmethod
     def get_root(cls):
         return cls.objects.get(parent=None)

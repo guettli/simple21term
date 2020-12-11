@@ -24,3 +24,9 @@ class PageTests(AbstractPageTest):
 
     def test_root__str(self):
         self.assertEqual('<root>', str(self.root))
+
+    def test_get_children__of_leaf(self):
+        self.assertEqual('<QuerySet []>', repr(self.page.get_children()))
+
+    def test_get_children__of_root(self):
+        self.assertEqual('<QuerySet [<Page: foo / myPage>]>', repr(self.root.get_children()))
