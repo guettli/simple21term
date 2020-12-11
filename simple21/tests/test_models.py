@@ -1,9 +1,12 @@
 import os
 
+from django.db import IntegrityError
+
 os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings'
 import django
 
 django.setup()
+from simple21.models import Page
 
 from simple21.testutils import AbstractPageTest
 
@@ -30,3 +33,6 @@ class PageTests(AbstractPageTest):
 
     def test_get_children__of_root(self):
         self.assertEqual('<QuerySet [<Page: myPage>]>', repr(self.root.get_children()))
+
+    def test_page_tree_must_have_only_one_root(self):
+        self.assertRaises(IntegrityError, Page.objects.create, name='root2')
