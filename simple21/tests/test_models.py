@@ -29,4 +29,4 @@ class PageTests(AbstractPageTest):
         self.assertEqual('<QuerySet []>', repr(self.page.get_children()))
 
     def test_get_children__of_root(self):
-        self.assertEqual('<QuerySet [<Page: foo / myPage>]>', repr(self.root.get_children()))
+        self.assertEqual('<QuerySet [<Page: myPage>]>', repr(self.root.get_children()))

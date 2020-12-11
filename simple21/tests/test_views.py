@@ -14,7 +14,7 @@ from django.urls import reverse
 from simple21 import views
 from django.test import Client
 
-from simple21.views import get_queryset, test_session_of_anonymous_user
+from simple21.views import get_queryset
 
 
 class ViewTests(AbstractPageTest):
@@ -38,6 +38,7 @@ class ViewTests(AbstractPageTest):
         Ensure that two anonymous user have different session data, although they
         use the same user instance in the database.
         """
+        from simple21.views import test_session_of_anonymous_user
         url = reverse(test_session_of_anonymous_user)
         user = GlobalConfig.get().anonymous_user
         client_one = Client()

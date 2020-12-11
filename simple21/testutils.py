@@ -14,7 +14,7 @@ class AbstractPageTest(TestCase):
 
     @classmethod
     def get_root(cls):
-        return Page.objects.update_or_create(parent=None, defaults=dict(text='Root Page'))[0]
+        return Page.objects.update_or_create(parent=None, defaults=dict(text='Root Page', name=''))[0]
 
 
     @classmethod

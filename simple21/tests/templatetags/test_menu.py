@@ -15,6 +15,6 @@ from django.template import Context, Template
 class MenuTest(AbstractPageTest):
     def test_templatetag_menu(self):
         self.assertEqual(1, self.root.get_children().count())
-        self.assertEqual(['S21', '*', 'Hello,', 'USER', '*', 'foo', '/', 'myPage'],
+        self.assertEqual(['S21', '*', 'Hello,', 'USER', '*', 'myPage'],
                          html2text.html2text(
                              Template('''{% load menu %} {% menu %}''').render(context=Context())).split())
