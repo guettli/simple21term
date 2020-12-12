@@ -57,6 +57,17 @@ python3 -m venv simple21env
 cd simple21env
 . bin/activate
 pip install -e git+https://github.com/guettli/simple21term.git#egg=simple21term
+
+# edit bin/activate and add at the bottom
+# source $VIRTUAL_ENV/src/simple21term/mysite/.env
+
+# Now run this again, to set the environment variables of ".env":
+. bin/activate
+
+# create postgresql superuser with name of your $USER
+# create postgresql db with name s21
+
+
 ls src
  --> src/simple21term contains the source code
  ```
